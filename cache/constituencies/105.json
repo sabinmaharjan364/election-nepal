@@ -1,0 +1,61 @@
+{
+    "fetched_at": 1772796064,
+    "ttl": 60,
+    "data": {
+        "id": 105,
+        "name": "Gulmi-1",
+        "name_np": "क्षेत्र नं. १",
+        "province": "Lumbini",
+        "district": "Gulmi",
+        "total_votes_counted": 1407,
+        "total_registered_voters": 122186,
+        "total_cast_votes": 0,
+        "counting_complete": false,
+        "status": "counting",
+        "candidates": [
+            {
+                "id": 341377,
+                "name": "Sagar Dhakal",
+                "name_np": "सागर ढकाल",
+                "party": "Rastriya Swatantra Party",
+                "party_abbr": "RSP",
+                "party_color": "#7c3aed",
+                "party_name": "राष्ट्रिय स्वतन्त्र पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/341377.jpg",
+                "votes": 622,
+                "percentage": 44.2,
+                "position": 1,
+                "status": "leading"
+            },
+            {
+                "id": 340067,
+                "name": "Pradeep Kumar Gyawali",
+                "name_np": "प्रदिप कुमार ज्ञवाली",
+                "party": "CPN-UML",
+                "party_abbr": "UML",
+                "party_color": "#dc2626",
+                "party_name": "नेपाल कम्युनिष्ट पार्टी (एकीकृत मार्क्सवादी लेनिनवादी)",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340067.jpg",
+                "votes": 449,
+                "percentage": 31.9,
+                "position": 2,
+                "status": "trailing"
+            },
+            {
+                "id": 339864,
+                "name": "Chandrakant Bhandari",
+                "name_np": "चन्द्रकान्त भण्डारी",
+                "party": "Nepali Congress",
+                "party_abbr": "NC",
+                "party_color": "#1e3a8a",
+                "party_name": "नेपाली काँग्रेस",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/339864.jpg",
+                "votes": 336,
+                "percentage": 23.9,
+                "position": 3,
+                "status": "trailing"
+            }
+        ],
+        "winner": null
+    }
+}

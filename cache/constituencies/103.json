@@ -1,0 +1,61 @@
+{
+    "fetched_at": 1772796064,
+    "ttl": 60,
+    "data": {
+        "id": 103,
+        "name": "Syangja-1",
+        "name_np": "क्षेत्र नं. १",
+        "province": "Gandaki",
+        "district": "Syangja",
+        "total_votes_counted": 7461,
+        "total_registered_voters": 130886,
+        "total_cast_votes": 0,
+        "counting_complete": false,
+        "status": "counting",
+        "candidates": [
+            {
+                "id": 339751,
+                "name": "Dhananjay Regmi",
+                "name_np": "धनन्जय रेग्मी",
+                "party": "Rastriya Swatantra Party",
+                "party_abbr": "RSP",
+                "party_color": "#7c3aed",
+                "party_name": "राष्ट्रिय स्वतन्त्र पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/339751.jpg",
+                "votes": 2550,
+                "percentage": 34.2,
+                "position": 1,
+                "status": "leading"
+            },
+            {
+                "id": 340298,
+                "name": "Bharat Raj Dhakal",
+                "name_np": "भरत राज ढकाल",
+                "party": "Nepali Congress",
+                "party_abbr": "NC",
+                "party_color": "#1e3a8a",
+                "party_name": "नेपाली काँग्रेस",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340298.jpg",
+                "votes": 2464,
+                "percentage": 33,
+                "position": 2,
+                "status": "trailing"
+            },
+            {
+                "id": 340156,
+                "name": "Min Prasad Gurung",
+                "name_np": "मिन प्रसाद गुरुङ्ग",
+                "party": "CPN-UML",
+                "party_abbr": "UML",
+                "party_color": "#dc2626",
+                "party_name": "नेपाल कम्युनिष्ट पार्टी (एकीकृत मार्क्सवादी लेनिनवादी)",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340156.jpg",
+                "votes": 2447,
+                "percentage": 32.8,
+                "position": 3,
+                "status": "trailing"
+            }
+        ],
+        "winner": null
+    }
+}

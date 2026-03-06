@@ -1,0 +1,61 @@
+{
+    "fetched_at": 1772796064,
+    "ttl": 60,
+    "data": {
+        "id": 121,
+        "name": "Myagdi-1",
+        "name_np": "क्षेत्र नं. १",
+        "province": "Gandaki",
+        "district": "Myagdi",
+        "total_votes_counted": 6588,
+        "total_registered_voters": 86397,
+        "total_cast_votes": 0,
+        "counting_complete": false,
+        "status": "counting",
+        "candidates": [
+            {
+                "id": 339417,
+                "name": "Mahabir Pun",
+                "name_np": "महावीर पुन",
+                "party": "Independent",
+                "party_abbr": "IND",
+                "party_color": "#6b7280",
+                "party_name": "स्वतन्त्र",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/339417.jpg",
+                "votes": 3740,
+                "percentage": 56.8,
+                "position": 1,
+                "status": "leading"
+            },
+            {
+                "id": 339939,
+                "name": "Harikrishna Shrestha",
+                "name_np": "हरीकृष्ण श्रेष्ठ",
+                "party": "CPN-UML",
+                "party_abbr": "UML",
+                "party_color": "#dc2626",
+                "party_name": "नेपाल कम्युनिष्ट पार्टी (एकीकृत मार्क्सवादी लेनिनवादी)",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/339939.jpg",
+                "votes": 1528,
+                "percentage": 23.2,
+                "position": 2,
+                "status": "trailing"
+            },
+            {
+                "id": 340362,
+                "name": "Arjun Bahadur Thapa",
+                "name_np": "अर्जुन बहादुर थापा",
+                "party": "CPN (Maoist Centre)",
+                "party_abbr": "MC",
+                "party_color": "#7f1d1d",
+                "party_name": "नेपाली कम्युनिष्ट पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340362.jpg",
+                "votes": 1320,
+                "percentage": 20,
+                "position": 3,
+                "status": "trailing"
+            }
+        ],
+        "winner": null
+    }
+}

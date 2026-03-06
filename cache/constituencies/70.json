@@ -1,0 +1,61 @@
+{
+    "fetched_at": 1772796064,
+    "ttl": 60,
+    "data": {
+        "id": 70,
+        "name": "Lalitpur-1",
+        "name_np": "क्षेत्र नं. १",
+        "province": "Bagmati",
+        "district": "Lalitpur",
+        "total_votes_counted": 13088,
+        "total_registered_voters": 77737,
+        "total_cast_votes": 0,
+        "counting_complete": false,
+        "status": "counting",
+        "candidates": [
+            {
+                "id": 341966,
+                "name": "Uday Shansher J. B. Rana",
+                "name_np": "उदय शंशेर ज.ब.राणा",
+                "party": "Nepali Congress",
+                "party_abbr": "NC",
+                "party_color": "#1e3a8a",
+                "party_name": "नेपाली काँग्रेस",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/341966.jpg",
+                "votes": 5642,
+                "percentage": 43.1,
+                "position": 1,
+                "status": "leading"
+            },
+            {
+                "id": 341868,
+                "name": "Buddha Ratna Maharjan",
+                "name_np": "बुद्ध रत्न महर्जन",
+                "party": "Rastriya Swatantra Party",
+                "party_abbr": "RSP",
+                "party_color": "#7c3aed",
+                "party_name": "राष्ट्रिय स्वतन्त्र पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/341868.jpg",
+                "votes": 3907,
+                "percentage": 29.9,
+                "position": 2,
+                "status": "trailing"
+            },
+            {
+                "id": 340092,
+                "name": "Chet Nath Sanjel",
+                "name_np": "चेत नाथ संजेल",
+                "party": "CPN-UML",
+                "party_abbr": "UML",
+                "party_color": "#dc2626",
+                "party_name": "नेपाल कम्युनिष्ट पार्टी (एकीकृत मार्क्सवादी लेनिनवादी)",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340092.jpg",
+                "votes": 3539,
+                "percentage": 27,
+                "position": 3,
+                "status": "trailing"
+            }
+        ],
+        "winner": null
+    }
+}

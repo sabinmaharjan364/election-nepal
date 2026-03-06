@@ -1,0 +1,61 @@
+{
+    "fetched_at": 1772796064,
+    "ttl": 60,
+    "data": {
+        "id": 96,
+        "name": "Manang-1",
+        "name_np": "क्षेत्र नं. १",
+        "province": "Gandaki",
+        "district": "Manang",
+        "total_votes_counted": 2244,
+        "total_registered_voters": 7000,
+        "total_cast_votes": 3021,
+        "counting_complete": false,
+        "status": "counting",
+        "candidates": [
+            {
+                "id": 339862,
+                "name": "Tek Bahadur Gurung",
+                "name_np": "टेक बहादुर गुरुङ",
+                "party": "Nepali Congress",
+                "party_abbr": "NC",
+                "party_color": "#1e3a8a",
+                "party_name": "नेपाली काँग्रेस",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/339862.jpg",
+                "votes": 1898,
+                "percentage": 84.6,
+                "position": 1,
+                "status": "leading"
+            },
+            {
+                "id": 340431,
+                "name": "Yashoda Gurung (Subedi)",
+                "name_np": "यशोदा गुरुङ (सुवेदी)",
+                "party": "CPN (Maoist Centre)",
+                "party_abbr": "MC",
+                "party_color": "#7f1d1d",
+                "party_name": "नेपाली कम्युनिष्ट पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340431.jpg",
+                "votes": 339,
+                "percentage": 15.1,
+                "position": 2,
+                "status": "trailing"
+            },
+            {
+                "id": 339445,
+                "name": "Ram Bahadur Ghale",
+                "name_np": "राम बहादुर घले",
+                "party": "मंगोल नेशनल अर्गनाइजेसन",
+                "party_abbr": "मंगो",
+                "party_color": "#6b7280",
+                "party_name": "मंगोल नेशनल अर्गनाइजेसन",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/339445.jpg",
+                "votes": 7,
+                "percentage": 0.3,
+                "position": 3,
+                "status": "trailing"
+            }
+        ],
+        "winner": null
+    }
+}

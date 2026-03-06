@@ -1,0 +1,61 @@
+{
+    "fetched_at": 1772796064,
+    "ttl": 60,
+    "data": {
+        "id": 133,
+        "name": "Mugu-1",
+        "name_np": "क्षेत्र नं. १",
+        "province": "Karnali",
+        "district": "Mugu",
+        "total_votes_counted": 0,
+        "total_registered_voters": 36031,
+        "total_cast_votes": 22168,
+        "counting_complete": false,
+        "status": "pending",
+        "candidates": [
+            {
+                "id": 341556,
+                "name": "Khadga Shahi",
+                "name_np": "खड्ग शाही",
+                "party": "Nepali Congress",
+                "party_abbr": "NC",
+                "party_color": "#1e3a8a",
+                "party_name": "नेपाली काँग्रेस",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/341556.jpg",
+                "votes": 0,
+                "percentage": 0,
+                "position": 1,
+                "status": "trailing"
+            },
+            {
+                "id": 340557,
+                "name": "Purna Bahadur Rokaya",
+                "name_np": "पूर्ण बहादुर रोकाया",
+                "party": "CPN-UML",
+                "party_abbr": "UML",
+                "party_color": "#dc2626",
+                "party_name": "नेपाल कम्युनिष्ट पार्टी (एकीकृत मार्क्सवादी लेनिनवादी)",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340557.jpg",
+                "votes": 0,
+                "percentage": 0,
+                "position": 2,
+                "status": "trailing"
+            },
+            {
+                "id": 341393,
+                "name": "Bhuvan Tamta",
+                "name_np": "भुवन टमटा",
+                "party": "Rastriya Swatantra Party",
+                "party_abbr": "RSP",
+                "party_color": "#7c3aed",
+                "party_name": "राष्ट्रिय स्वतन्त्र पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/341393.jpg",
+                "votes": 0,
+                "percentage": 0,
+                "position": 3,
+                "status": "trailing"
+            }
+        ],
+        "winner": null
+    }
+}

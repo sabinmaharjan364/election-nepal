@@ -1,0 +1,171 @@
+{
+    "fetched_at": 1772796064,
+    "ttl": 60,
+    "data": [
+        {
+            "party_name": "राष्ट्रिय स्वतन्त्र पार्टी",
+            "party_name_en": "Rastriya Swatantra Party",
+            "party_abbr": "RSP",
+            "party_color": "#7c3aed",
+            "seats_won": 1,
+            "seats_leading": 84,
+            "total_votes": 490545,
+            "party_id": 1,
+            "vote_percentage": 51.7
+        },
+        {
+            "party_name": "नेपाली काँग्रेस",
+            "party_name_en": "Nepali Congress",
+            "party_abbr": "NC",
+            "party_color": "#1e3a8a",
+            "seats_won": 1,
+            "seats_leading": 13,
+            "total_votes": 191697,
+            "party_id": 2,
+            "vote_percentage": 20.2
+        },
+        {
+            "party_name": "नेपाली कम्युनिष्ट पार्टी",
+            "party_name_en": "CPN (Maoist Centre)",
+            "party_abbr": "MC",
+            "party_color": "#7f1d1d",
+            "seats_won": 0,
+            "seats_leading": 8,
+            "total_votes": 83521,
+            "party_id": 3,
+            "vote_percentage": 8.8
+        },
+        {
+            "party_name": "नेपाल कम्युनिष्ट पार्टी (एकीकृत मार्क्सवादी लेनिनवादी)",
+            "party_name_en": "CPN-UML",
+            "party_abbr": "UML",
+            "party_color": "#dc2626",
+            "seats_won": 0,
+            "seats_leading": 8,
+            "total_votes": 132318,
+            "party_id": 4,
+            "vote_percentage": 13.9
+        },
+        {
+            "party_name": "श्रम संस्कृति पार्टी",
+            "party_name_en": "Shram Sanskriti Party",
+            "party_abbr": "LSP",
+            "party_color": "#84cc16",
+            "seats_won": 0,
+            "seats_leading": 4,
+            "total_votes": 9436,
+            "party_id": 5,
+            "vote_percentage": 1
+        },
+        {
+            "party_name": "राष्ट्रिय प्रजातन्त्र पार्टी",
+            "party_name_en": "Rastriya Prajatantra Party",
+            "party_abbr": "RPP",
+            "party_color": "#d97706",
+            "seats_won": 0,
+            "seats_leading": 1,
+            "total_votes": 15685,
+            "party_id": 6,
+            "vote_percentage": 1.7
+        },
+        {
+            "party_name": "स्वतन्त्र",
+            "party_name_en": "Independent",
+            "party_abbr": "IND",
+            "party_color": "#6b7280",
+            "seats_won": 0,
+            "seats_leading": 1,
+            "total_votes": 5217,
+            "party_id": 7,
+            "vote_percentage": 0.5
+        },
+        {
+            "party_name": "प्रगतिशील लोकतान्त्रिक पार्टी",
+            "party_name_en": "प्रगतिशील लोकतान्त्रिक पार्टी",
+            "party_abbr": "प्रग",
+            "party_color": "#6b7280",
+            "seats_won": 0,
+            "seats_leading": 1,
+            "total_votes": 1172,
+            "party_id": 8,
+            "vote_percentage": 0.1
+        },
+        {
+            "party_name": "जनता समाजवादी पार्टी, नेपाल",
+            "party_name_en": "Janata Samajwadi Party Nepal",
+            "party_abbr": "JSP",
+            "party_color": "#0891b2",
+            "seats_won": 0,
+            "seats_leading": 0,
+            "total_votes": 5776,
+            "party_id": 9,
+            "vote_percentage": 0.6
+        },
+        {
+            "party_name": "जनमत पार्टी",
+            "party_name_en": "Janmat Party",
+            "party_abbr": "JP",
+            "party_color": "#065f46",
+            "seats_won": 0,
+            "seats_leading": 0,
+            "total_votes": 88,
+            "party_id": 10,
+            "vote_percentage": 0
+        },
+        {
+            "party_name": "राष्ट्रिय मुक्ति पार्टी नेपाल(एकल चुनाव चिन्ह)",
+            "party_name_en": "राष्ट्रिय मुक्ति पार्टी नेपाल(एकल चुनाव चिन्ह)",
+            "party_abbr": "राष्",
+            "party_color": "#6b7280",
+            "seats_won": 0,
+            "seats_leading": 0,
+            "total_votes": 475,
+            "party_id": 11,
+            "vote_percentage": 0.1
+        },
+        {
+            "party_name": "उज्यालो नेपाल पार्टी",
+            "party_name_en": "Ujyalo Nepal Party",
+            "party_abbr": "UNP",
+            "party_color": "#f97316",
+            "seats_won": 0,
+            "seats_leading": 0,
+            "total_votes": 6699,
+            "party_id": 12,
+            "vote_percentage": 0.7
+        },
+        {
+            "party_name": "नेपाल मजदुर किसान पार्टी",
+            "party_name_en": "Nepal Majdur Kisan Party",
+            "party_abbr": "NMKP",
+            "party_color": "#10b981",
+            "seats_won": 0,
+            "seats_leading": 0,
+            "total_votes": 6055,
+            "party_id": 13,
+            "vote_percentage": 0.6
+        },
+        {
+            "party_name": "मंगोल नेशनल अर्गनाइजेसन",
+            "party_name_en": "मंगोल नेशनल अर्गनाइजेसन",
+            "party_abbr": "मंगो",
+            "party_color": "#6b7280",
+            "seats_won": 0,
+            "seats_leading": 0,
+            "total_votes": 7,
+            "party_id": 14,
+            "vote_percentage": 0
+        },
+        {
+            "party_name": "नेपाल कम्युनिस्ट पार्टी (माओवादी)",
+            "party_name_en": "नेपाल कम्युनिस्ट पार्टी (माओवादी)",
+            "party_abbr": "नेपा",
+            "party_color": "#6b7280",
+            "seats_won": 0,
+            "seats_leading": 0,
+            "total_votes": 573,
+            "party_id": 15,
+            "vote_percentage": 0.1
+        }
+    ]
+}

@@ -1,0 +1,61 @@
+{
+    "fetched_at": 1772796064,
+    "ttl": 60,
+    "data": {
+        "id": 164,
+        "name": "Nawalparasi (Bardaghat Susta West)-2",
+        "name_np": "क्षेत्र नं. २",
+        "province": "Lumbini",
+        "district": "Nawalparasi (Bardaghat Susta West)",
+        "total_votes_counted": 6132,
+        "total_registered_voters": 131077,
+        "total_cast_votes": 0,
+        "counting_complete": false,
+        "status": "counting",
+        "candidates": [
+            {
+                "id": 340191,
+                "name": "Narendra Kumar Gupta",
+                "name_np": "नरेन्द्र कुमार गुप्‍ता",
+                "party": "Rastriya Swatantra Party",
+                "party_abbr": "RSP",
+                "party_color": "#7c3aed",
+                "party_name": "राष्ट्रिय स्वतन्त्र पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340191.jpg",
+                "votes": 4074,
+                "percentage": 66.4,
+                "position": 1,
+                "status": "leading"
+            },
+            {
+                "id": 340076,
+                "name": "Bhim Bahadur Thapa Chhetri",
+                "name_np": "भीम बहादुर थापा क्षेत्री",
+                "party": "Nepali Congress",
+                "party_abbr": "NC",
+                "party_color": "#1e3a8a",
+                "party_name": "नेपाली काँग्रेस",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340076.jpg",
+                "votes": 1547,
+                "percentage": 25.2,
+                "position": 2,
+                "status": "trailing"
+            },
+            {
+                "id": 340529,
+                "name": "Devendra Yadav",
+                "name_np": "देबेन्‍द्र यादव",
+                "party": "Janata Samajwadi Party Nepal",
+                "party_abbr": "JSP",
+                "party_color": "#0891b2",
+                "party_name": "जनता समाजवादी पार्टी, नेपाल",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340529.jpg",
+                "votes": 511,
+                "percentage": 8.3,
+                "position": 3,
+                "status": "trailing"
+            }
+        ],
+        "winner": null
+    }
+}

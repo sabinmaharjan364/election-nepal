@@ -1,0 +1,61 @@
+{
+    "fetched_at": 1772796064,
+    "ttl": 60,
+    "data": {
+        "id": 158,
+        "name": "Baitadi-1",
+        "name_np": "क्षेत्र नं. १",
+        "province": "Sudurpashchim",
+        "district": "Baitadi",
+        "total_votes_counted": 373,
+        "total_registered_voters": 156372,
+        "total_cast_votes": 73148,
+        "counting_complete": false,
+        "status": "counting",
+        "candidates": [
+            {
+                "id": 340516,
+                "name": "Hari Mohan Bhandari",
+                "name_np": "हरि मोहन भण्डारी",
+                "party": "Rastriya Swatantra Party",
+                "party_abbr": "RSP",
+                "party_color": "#7c3aed",
+                "party_name": "राष्ट्रिय स्वतन्त्र पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340516.jpg",
+                "votes": 192,
+                "percentage": 51.5,
+                "position": 1,
+                "status": "leading"
+            },
+            {
+                "id": 339985,
+                "name": "Chatur Bahadur Chand",
+                "name_np": "चतुर बहादुर चन्द",
+                "party": "Nepali Congress",
+                "party_abbr": "NC",
+                "party_color": "#1e3a8a",
+                "party_name": "नेपाली काँग्रेस",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/339985.jpg",
+                "votes": 91,
+                "percentage": 24.4,
+                "position": 2,
+                "status": "trailing"
+            },
+            {
+                "id": 339601,
+                "name": "Damodar Bhandari",
+                "name_np": "दामोदर भण्डारी",
+                "party": "CPN-UML",
+                "party_abbr": "UML",
+                "party_color": "#dc2626",
+                "party_name": "नेपाल कम्युनिष्ट पार्टी (एकीकृत मार्क्सवादी लेनिनवादी)",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/339601.jpg",
+                "votes": 90,
+                "percentage": 24.1,
+                "position": 3,
+                "status": "trailing"
+            }
+        ],
+        "winner": null
+    }
+}

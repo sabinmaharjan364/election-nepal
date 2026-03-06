@@ -1,0 +1,61 @@
+{
+    "fetched_at": 1772796064,
+    "ttl": 60,
+    "data": {
+        "id": 68,
+        "name": "Bhaktapur-1",
+        "name_np": "क्षेत्र नं. १",
+        "province": "Bagmati",
+        "district": "Bhaktapur",
+        "total_votes_counted": 16566,
+        "total_registered_voters": 107054,
+        "total_cast_votes": 75857,
+        "counting_complete": false,
+        "status": "counting",
+        "candidates": [
+            {
+                "id": 339461,
+                "name": "Rukesh Ranjit",
+                "name_np": "रुकेश रन्जित",
+                "party": "Rastriya Swatantra Party",
+                "party_abbr": "RSP",
+                "party_color": "#7c3aed",
+                "party_name": "राष्ट्रिय स्वतन्त्र पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/339461.jpg",
+                "votes": 9123,
+                "percentage": 55.1,
+                "position": 1,
+                "status": "leading"
+            },
+            {
+                "id": 339896,
+                "name": "Prem Suwal",
+                "name_np": "प्रेम सुवाल",
+                "party": "Nepal Majdur Kisan Party",
+                "party_abbr": "NMKP",
+                "party_color": "#10b981",
+                "party_name": "नेपाल मजदुर किसान पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/339896.jpg",
+                "votes": 6055,
+                "percentage": 36.6,
+                "position": 2,
+                "status": "trailing"
+            },
+            {
+                "id": 340847,
+                "name": "Kiran Neupane",
+                "name_np": "किरण न्यौपाने",
+                "party": "Nepali Congress",
+                "party_abbr": "NC",
+                "party_color": "#1e3a8a",
+                "party_name": "नेपाली काँग्रेस",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340847.jpg",
+                "votes": 1388,
+                "percentage": 8.4,
+                "position": 3,
+                "status": "trailing"
+            }
+        ],
+        "winner": null
+    }
+}

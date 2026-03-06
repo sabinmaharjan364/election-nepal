@@ -1,0 +1,61 @@
+{
+    "fetched_at": 1772796064,
+    "ttl": 60,
+    "data": {
+        "id": 125,
+        "name": "Rukum East-1",
+        "name_np": "क्षेत्र नं. १",
+        "province": "Lumbini",
+        "district": "Rukum East",
+        "total_votes_counted": 14241,
+        "total_registered_voters": 34772,
+        "total_cast_votes": 18604,
+        "counting_complete": false,
+        "status": "counting",
+        "candidates": [
+            {
+                "id": 340050,
+                "name": "Pushpa Kamal Dahal 'Prachanda'",
+                "name_np": "पुष्प कमल दाहाल प्रचण्ड",
+                "party": "CPN (Maoist Centre)",
+                "party_abbr": "MC",
+                "party_color": "#7f1d1d",
+                "party_name": "नेपाली कम्युनिष्ट पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340050.jpg",
+                "votes": 8747,
+                "percentage": 61.4,
+                "position": 1,
+                "status": "leading"
+            },
+            {
+                "id": 341054,
+                "name": "Lilamani Gautam",
+                "name_np": "लिलामणी गौतम",
+                "party": "CPN-UML",
+                "party_abbr": "UML",
+                "party_color": "#dc2626",
+                "party_name": "नेपाल कम्युनिष्ट पार्टी (एकीकृत मार्क्सवादी लेनिनवादी)",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/341054.jpg",
+                "votes": 3017,
+                "percentage": 21.2,
+                "position": 2,
+                "status": "trailing"
+            },
+            {
+                "id": 340912,
+                "name": "Kusum Devi Thapa",
+                "name_np": "कुसुम देवी थापा",
+                "party": "Nepali Congress",
+                "party_abbr": "NC",
+                "party_color": "#1e3a8a",
+                "party_name": "नेपाली काँग्रेस",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340912.jpg",
+                "votes": 2477,
+                "percentage": 17.4,
+                "position": 3,
+                "status": "trailing"
+            }
+        ],
+        "winner": null
+    }
+}

@@ -1,0 +1,61 @@
+{
+    "fetched_at": 1772796064,
+    "ttl": 60,
+    "data": {
+        "id": 37,
+        "name": "Dolakha-1",
+        "name_np": "क्षेत्र नं. १",
+        "province": "Bagmati",
+        "district": "Dolakha",
+        "total_votes_counted": 9354,
+        "total_registered_voters": 170321,
+        "total_cast_votes": 0,
+        "counting_complete": false,
+        "status": "counting",
+        "candidates": [
+            {
+                "id": 339522,
+                "name": "Jagdish Kharel",
+                "name_np": "जगदीश खरेल",
+                "party": "Rastriya Swatantra Party",
+                "party_abbr": "RSP",
+                "party_color": "#7c3aed",
+                "party_name": "राष्ट्रिय स्वतन्त्र पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/339522.jpg",
+                "votes": 7617,
+                "percentage": 81.4,
+                "position": 1,
+                "status": "leading"
+            },
+            {
+                "id": 341082,
+                "name": "Ajay Babu Siwakoti",
+                "name_np": "अजय बाबु शिवाकोटी",
+                "party": "Nepali Congress",
+                "party_abbr": "NC",
+                "party_color": "#1e3a8a",
+                "party_name": "नेपाली काँग्रेस",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/341082.jpg",
+                "votes": 890,
+                "percentage": 9.5,
+                "position": 2,
+                "status": "trailing"
+            },
+            {
+                "id": 340303,
+                "name": "Bishal Khadka",
+                "name_np": "विशाल खड्का",
+                "party": "CPN (Maoist Centre)",
+                "party_abbr": "MC",
+                "party_color": "#7f1d1d",
+                "party_name": "नेपाली कम्युनिष्ट पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340303.jpg",
+                "votes": 847,
+                "percentage": 9.1,
+                "position": 3,
+                "status": "trailing"
+            }
+        ],
+        "winner": null
+    }
+}

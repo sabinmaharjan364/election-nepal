@@ -1,0 +1,61 @@
+{
+    "fetched_at": 1772796064,
+    "ttl": 60,
+    "data": {
+        "id": 13,
+        "name": "Dhankuta-1",
+        "name_np": "क्षेत्र नं. १",
+        "province": "Koshi",
+        "district": "Dhankuta",
+        "total_votes_counted": 3362,
+        "total_registered_voters": 118425,
+        "total_cast_votes": 64490,
+        "counting_complete": false,
+        "status": "counting",
+        "candidates": [
+            {
+                "id": 339496,
+                "name": "San Bahadur Rai",
+                "name_np": "सान बहादुर​ राई",
+                "party": "Shram Sanskriti Party",
+                "party_abbr": "LSP",
+                "party_color": "#84cc16",
+                "party_name": "श्रम संस्कृति पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/339496.jpg",
+                "votes": 1589,
+                "percentage": 47.3,
+                "position": 1,
+                "status": "leading"
+            },
+            {
+                "id": 339725,
+                "name": "Rajendra Kumar Rai",
+                "name_np": "राजेन्द्र कुमार राई",
+                "party": "CPN-UML",
+                "party_abbr": "UML",
+                "party_color": "#dc2626",
+                "party_name": "नेपाल कम्युनिष्ट पार्टी (एकीकृत मार्क्सवादी लेनिनवादी)",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/339725.jpg",
+                "votes": 1038,
+                "percentage": 30.9,
+                "position": 2,
+                "status": "trailing"
+            },
+            {
+                "id": 340038,
+                "name": "Dinesh Rai",
+                "name_np": "दिनेश राई",
+                "party": "Nepali Congress",
+                "party_abbr": "NC",
+                "party_color": "#1e3a8a",
+                "party_name": "नेपाली काँग्रेस",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340038.jpg",
+                "votes": 735,
+                "percentage": 21.9,
+                "position": 3,
+                "status": "trailing"
+            }
+        ],
+        "winner": null
+    }
+}

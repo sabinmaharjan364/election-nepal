@@ -1,0 +1,61 @@
+{
+    "fetched_at": 1772796064,
+    "ttl": 60,
+    "data": {
+        "id": 2,
+        "name": "Panchthar-1",
+        "name_np": "क्षेत्र नं. १",
+        "province": "Koshi",
+        "district": "Panchthar",
+        "total_votes_counted": 663,
+        "total_registered_voters": 143408,
+        "total_cast_votes": 65883,
+        "counting_complete": false,
+        "status": "counting",
+        "candidates": [
+            {
+                "id": 339925,
+                "name": "Hasta Raj Sharma",
+                "name_np": "हस्त राज शेर्मा",
+                "party": "Shram Sanskriti Party",
+                "party_abbr": "LSP",
+                "party_color": "#84cc16",
+                "party_name": "श्रम संस्कृति पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/339925.jpg",
+                "votes": 303,
+                "percentage": 45.7,
+                "position": 1,
+                "status": "leading"
+            },
+            {
+                "id": 340563,
+                "name": "Narendra Kumar Kerung",
+                "name_np": "नरेन्द्र कुमार केरुङ",
+                "party": "Nepali Congress",
+                "party_abbr": "NC",
+                "party_color": "#1e3a8a",
+                "party_name": "नेपाली काँग्रेस",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340563.jpg",
+                "votes": 185,
+                "percentage": 27.9,
+                "position": 2,
+                "status": "trailing"
+            },
+            {
+                "id": 340277,
+                "name": "Aindra Sundar Nemwang",
+                "name_np": "अइन्द्र सुन्दर नेम्वाङ",
+                "party": "CPN-UML",
+                "party_abbr": "UML",
+                "party_color": "#dc2626",
+                "party_name": "नेपाल कम्युनिष्ट पार्टी (एकीकृत मार्क्सवादी लेनिनवादी)",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340277.jpg",
+                "votes": 175,
+                "percentage": 26.4,
+                "position": 3,
+                "status": "trailing"
+            }
+        ],
+        "winner": null
+    }
+}

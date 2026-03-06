@@ -1,0 +1,61 @@
+{
+    "fetched_at": 1772796064,
+    "ttl": 60,
+    "data": {
+        "id": 59,
+        "name": "Kathmandu-2",
+        "name_np": "क्षेत्र नं. २",
+        "province": "Bagmati",
+        "district": "Kathmandu",
+        "total_votes_counted": 15895,
+        "total_registered_voters": 88708,
+        "total_cast_votes": 0,
+        "counting_complete": false,
+        "status": "counting",
+        "candidates": [
+            {
+                "id": 341881,
+                "name": "Sunil K.C.",
+                "name_np": "सुनिल के.सी.",
+                "party": "Rastriya Swatantra Party",
+                "party_abbr": "RSP",
+                "party_color": "#7c3aed",
+                "party_name": "राष्ट्रिय स्वतन्त्र पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/341881.jpg",
+                "votes": 10477,
+                "percentage": 65.9,
+                "position": 1,
+                "status": "leading"
+            },
+            {
+                "id": 341940,
+                "name": "Kabir Sharma",
+                "name_np": "कबिर शर्मा",
+                "party": "Nepali Congress",
+                "party_abbr": "NC",
+                "party_color": "#1e3a8a",
+                "party_name": "नेपाली काँग्रेस",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/341940.jpg",
+                "votes": 3283,
+                "percentage": 20.7,
+                "position": 2,
+                "status": "trailing"
+            },
+            {
+                "id": 339804,
+                "name": "Kunti Devi Pokharel (Upadhaya)",
+                "name_np": "कुन्ती देवी पोखरेल(उपाध्याय)",
+                "party": "Rastriya Prajatantra Party",
+                "party_abbr": "RPP",
+                "party_color": "#d97706",
+                "party_name": "राष्ट्रिय प्रजातन्त्र पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/339804.jpg",
+                "votes": 2135,
+                "percentage": 13.4,
+                "position": 3,
+                "status": "trailing"
+            }
+        ],
+        "winner": null
+    }
+}

@@ -1,0 +1,61 @@
+{
+    "fetched_at": 1772796064,
+    "ttl": 60,
+    "data": {
+        "id": 24,
+        "name": "Solukhumbu-1",
+        "name_np": "क्षेत्र नं. १",
+        "province": "Koshi",
+        "district": "Solukhumbu",
+        "total_votes_counted": 0,
+        "total_registered_voters": 85515,
+        "total_cast_votes": 0,
+        "counting_complete": false,
+        "status": "pending",
+        "candidates": [
+            {
+                "id": 341534,
+                "name": "Prakash Singh Karki",
+                "name_np": "प्रकाश सिंह कार्की",
+                "party": "Nepali Congress",
+                "party_abbr": "NC",
+                "party_color": "#1e3a8a",
+                "party_name": "नेपाली काँग्रेस",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/341534.jpg",
+                "votes": 0,
+                "percentage": 0,
+                "position": 1,
+                "status": "trailing"
+            },
+            {
+                "id": 340324,
+                "name": "Kalpana Rai",
+                "name_np": "कल्पना राई",
+                "party": "CPN-UML",
+                "party_abbr": "UML",
+                "party_color": "#dc2626",
+                "party_name": "नेपाल कम्युनिष्ट पार्टी (एकीकृत मार्क्सवादी लेनिनवादी)",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340324.jpg",
+                "votes": 0,
+                "percentage": 0,
+                "position": 2,
+                "status": "trailing"
+            },
+            {
+                "id": 340888,
+                "name": "Rishi Dhan Thulungrai",
+                "name_np": "ऋषि धन थुलुङराई",
+                "party": "Rastriya Swatantra Party",
+                "party_abbr": "RSP",
+                "party_color": "#7c3aed",
+                "party_name": "राष्ट्रिय स्वतन्त्र पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340888.jpg",
+                "votes": 0,
+                "percentage": 0,
+                "position": 3,
+                "status": "trailing"
+            }
+        ],
+        "winner": null
+    }
+}

@@ -1,0 +1,61 @@
+{
+    "fetched_at": 1772796064,
+    "ttl": 60,
+    "data": {
+        "id": 63,
+        "name": "Kathmandu-6",
+        "name_np": "क्षेत्र नं. ६",
+        "province": "Bagmati",
+        "district": "Kathmandu",
+        "total_votes_counted": 29126,
+        "total_registered_voters": 67759,
+        "total_cast_votes": 0,
+        "counting_complete": false,
+        "status": "counting",
+        "candidates": [
+            {
+                "id": 342290,
+                "name": "Shishir Khanal",
+                "name_np": "शिशिर  खनाल",
+                "party": "Rastriya Swatantra Party",
+                "party_abbr": "RSP",
+                "party_color": "#7c3aed",
+                "party_name": "राष्ट्रिय स्वतन्त्र पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/342290.jpg",
+                "votes": 20992,
+                "percentage": 72.1,
+                "position": 1,
+                "status": "leading"
+            },
+            {
+                "id": 341403,
+                "name": "Krishna Baniya Kshetri",
+                "name_np": "कृष्‍ण वानियाँ क्षेत्री",
+                "party": "Nepali Congress",
+                "party_abbr": "NC",
+                "party_color": "#1e3a8a",
+                "party_name": "नेपाली काँग्रेस",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/341403.jpg",
+                "votes": 5127,
+                "percentage": 17.6,
+                "position": 2,
+                "status": "trailing"
+            },
+            {
+                "id": 341299,
+                "name": "Aman Kumar Maskey",
+                "name_np": "अमन कुमार मास्के",
+                "party": "CPN-UML",
+                "party_abbr": "UML",
+                "party_color": "#dc2626",
+                "party_name": "नेपाल कम्युनिष्ट पार्टी (एकीकृत मार्क्सवादी लेनिनवादी)",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/341299.jpg",
+                "votes": 3007,
+                "percentage": 10.3,
+                "position": 3,
+                "status": "trailing"
+            }
+        ],
+        "winner": null
+    }
+}

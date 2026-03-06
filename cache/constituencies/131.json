@@ -1,0 +1,61 @@
+{
+    "fetched_at": 1772796064,
+    "ttl": 60,
+    "data": {
+        "id": 131,
+        "name": "Dang-3",
+        "name_np": "क्षेत्र नं. ३",
+        "province": "Lumbini",
+        "district": "Dang",
+        "total_votes_counted": 5107,
+        "total_registered_voters": 150720,
+        "total_cast_votes": 88273,
+        "counting_complete": false,
+        "status": "counting",
+        "candidates": [
+            {
+                "id": 339501,
+                "name": "Kamal Subedi",
+                "name_np": "कमल सुबेदी",
+                "party": "Rastriya Swatantra Party",
+                "party_abbr": "RSP",
+                "party_color": "#7c3aed",
+                "party_name": "राष्ट्रिय स्वतन्त्र पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/339501.jpg",
+                "votes": 2703,
+                "percentage": 52.9,
+                "position": 1,
+                "status": "leading"
+            },
+            {
+                "id": 341200,
+                "name": "Deepak Giri",
+                "name_np": "दिपक गिरी",
+                "party": "Nepali Congress",
+                "party_abbr": "NC",
+                "party_color": "#1e3a8a",
+                "party_name": "नेपाली काँग्रेस",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/341200.jpg",
+                "votes": 1581,
+                "percentage": 31,
+                "position": 2,
+                "status": "trailing"
+            },
+            {
+                "id": 340401,
+                "name": "Ghanshyam Pandey",
+                "name_np": "घनश्याम पाण्डे",
+                "party": "CPN-UML",
+                "party_abbr": "UML",
+                "party_color": "#dc2626",
+                "party_name": "नेपाल कम्युनिष्ट पार्टी (एकीकृत मार्क्सवादी लेनिनवादी)",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340401.jpg",
+                "votes": 823,
+                "percentage": 16.1,
+                "position": 3,
+                "status": "trailing"
+            }
+        ],
+        "winner": null
+    }
+}

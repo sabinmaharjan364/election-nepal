@@ -1,0 +1,61 @@
+{
+    "fetched_at": 1772796064,
+    "ttl": 60,
+    "data": {
+        "id": 150,
+        "name": "Bajhang-1",
+        "name_np": "क्षेत्र नं. १",
+        "province": "Sudurpashchim",
+        "district": "Bajhang",
+        "total_votes_counted": 0,
+        "total_registered_voters": 126903,
+        "total_cast_votes": 58944,
+        "counting_complete": false,
+        "status": "pending",
+        "candidates": [
+            {
+                "id": 341565,
+                "name": "Prakash Rasaili Snehi",
+                "name_np": "प्रकाश रसाइली स्नेही",
+                "party": "Nepali Congress",
+                "party_abbr": "NC",
+                "party_color": "#1e3a8a",
+                "party_name": "नेपाली काँग्रेस",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/341565.jpg",
+                "votes": 0,
+                "percentage": 0,
+                "position": 1,
+                "status": "trailing"
+            },
+            {
+                "id": 340443,
+                "name": "Ain Bahadur Mahar",
+                "name_np": "ऐन बहादुर महर",
+                "party": "CPN-UML",
+                "party_abbr": "UML",
+                "party_color": "#dc2626",
+                "party_name": "नेपाल कम्युनिष्ट पार्टी (एकीकृत मार्क्सवादी लेनिनवादी)",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340443.jpg",
+                "votes": 0,
+                "percentage": 0,
+                "position": 2,
+                "status": "trailing"
+            },
+            {
+                "id": 341236,
+                "name": "Shailesh Kumar Singh",
+                "name_np": "शैलेश कुमार सिंह",
+                "party": "Rastriya Swatantra Party",
+                "party_abbr": "RSP",
+                "party_color": "#7c3aed",
+                "party_name": "राष्ट्रिय स्वतन्त्र पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/341236.jpg",
+                "votes": 0,
+                "percentage": 0,
+                "position": 3,
+                "status": "trailing"
+            }
+        ],
+        "winner": null
+    }
+}

@@ -1,0 +1,61 @@
+{
+    "fetched_at": 1772796064,
+    "ttl": 60,
+    "data": {
+        "id": 138,
+        "name": "Dailekh-1",
+        "name_np": "क्षेत्र नं. १",
+        "province": "Karnali",
+        "district": "Dailekh",
+        "total_votes_counted": 12426,
+        "total_registered_voters": 79701,
+        "total_cast_votes": 41069,
+        "counting_complete": false,
+        "status": "counting",
+        "candidates": [
+            {
+                "id": 341040,
+                "name": "Basna Thapa",
+                "name_np": "बासना थापा",
+                "party": "Nepali Congress",
+                "party_abbr": "NC",
+                "party_color": "#1e3a8a",
+                "party_name": "नेपाली काँग्रेस",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/341040.jpg",
+                "votes": 4992,
+                "percentage": 40.2,
+                "position": 1,
+                "status": "leading"
+            },
+            {
+                "id": 339621,
+                "name": "Ravindra Raj Sharma",
+                "name_np": "रविन्द्र राज शर्मा",
+                "party": "CPN-UML",
+                "party_abbr": "UML",
+                "party_color": "#dc2626",
+                "party_name": "नेपाल कम्युनिष्ट पार्टी (एकीकृत मार्क्सवादी लेनिनवादी)",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/339621.jpg",
+                "votes": 3925,
+                "percentage": 31.6,
+                "position": 2,
+                "status": "trailing"
+            },
+            {
+                "id": 339758,
+                "name": "Nanda Kishor Basnet",
+                "name_np": "नन्द किशोर बस्नेत",
+                "party": "Rastriya Swatantra Party",
+                "party_abbr": "RSP",
+                "party_color": "#7c3aed",
+                "party_name": "राष्ट्रिय स्वतन्त्र पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/339758.jpg",
+                "votes": 3509,
+                "percentage": 28.2,
+                "position": 3,
+                "status": "trailing"
+            }
+        ],
+        "winner": null
+    }
+}

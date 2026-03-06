@@ -1,0 +1,61 @@
+{
+    "fetched_at": 1772796064,
+    "ttl": 60,
+    "data": {
+        "id": 165,
+        "name": "Rukum West-1",
+        "name_np": "क्षेत्र नं. १",
+        "province": "Karnali",
+        "district": "Rukum West",
+        "total_votes_counted": 2549,
+        "total_registered_voters": 106660,
+        "total_cast_votes": 62968,
+        "counting_complete": false,
+        "status": "counting",
+        "candidates": [
+            {
+                "id": 340871,
+                "name": "Janardan Sharma",
+                "name_np": "जनार्दन शर्मा",
+                "party": "प्रगतिशील लोकतान्त्रिक पार्टी",
+                "party_abbr": "प्रग",
+                "party_color": "#6b7280",
+                "party_name": "प्रगतिशील लोकतान्त्रिक पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340871.jpg",
+                "votes": 1172,
+                "percentage": 46,
+                "position": 1,
+                "status": "leading"
+            },
+            {
+                "id": 340125,
+                "name": "Gopal Sharma",
+                "name_np": "गोपाल शर्मा",
+                "party": "CPN (Maoist Centre)",
+                "party_abbr": "MC",
+                "party_color": "#7f1d1d",
+                "party_name": "नेपाली कम्युनिष्ट पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340125.jpg",
+                "votes": 864,
+                "percentage": 33.9,
+                "position": 2,
+                "status": "trailing"
+            },
+            {
+                "id": 341362,
+                "name": "Raju K.C.",
+                "name_np": "राजु के.सी.",
+                "party": "Nepali Congress",
+                "party_abbr": "NC",
+                "party_color": "#1e3a8a",
+                "party_name": "नेपाली काँग्रेस",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/341362.jpg",
+                "votes": 513,
+                "percentage": 20.1,
+                "position": 3,
+                "status": "trailing"
+            }
+        ],
+        "winner": null
+    }
+}

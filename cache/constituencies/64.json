@@ -1,0 +1,61 @@
+{
+    "fetched_at": 1772796064,
+    "ttl": 60,
+    "data": {
+        "id": 64,
+        "name": "Kathmandu-7",
+        "name_np": "क्षेत्र नं. ७",
+        "province": "Bagmati",
+        "district": "Kathmandu",
+        "total_votes_counted": 9914,
+        "total_registered_voters": 67411,
+        "total_cast_votes": 0,
+        "counting_complete": false,
+        "status": "counting",
+        "candidates": [
+            {
+                "id": 340951,
+                "name": "Ganesh Parajuli",
+                "name_np": "गणेश पराजुली",
+                "party": "Rastriya Swatantra Party",
+                "party_abbr": "RSP",
+                "party_color": "#7c3aed",
+                "party_name": "राष्ट्रिय स्वतन्त्र पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340951.jpg",
+                "votes": 7642,
+                "percentage": 77.1,
+                "position": 1,
+                "status": "leading"
+            },
+            {
+                "id": 341121,
+                "name": "Prakash Shrestha",
+                "name_np": "प्रकाश श्रेष्ठ",
+                "party": "CPN-UML",
+                "party_abbr": "UML",
+                "party_color": "#dc2626",
+                "party_name": "नेपाल कम्युनिष्ट पार्टी (एकीकृत मार्क्सवादी लेनिनवादी)",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/341121.jpg",
+                "votes": 1220,
+                "percentage": 12.3,
+                "position": 2,
+                "status": "trailing"
+            },
+            {
+                "id": 341689,
+                "name": "Pramod Hari Guragai",
+                "name_np": "प्रमोद हरि गुरागाई",
+                "party": "Nepali Congress",
+                "party_abbr": "NC",
+                "party_color": "#1e3a8a",
+                "party_name": "नेपाली काँग्रेस",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/341689.jpg",
+                "votes": 1052,
+                "percentage": 10.6,
+                "position": 3,
+                "status": "trailing"
+            }
+        ],
+        "winner": null
+    }
+}

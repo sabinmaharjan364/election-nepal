@@ -1,0 +1,61 @@
+{
+    "fetched_at": 1772796064,
+    "ttl": 60,
+    "data": {
+        "id": 147,
+        "name": "Bajura-1",
+        "name_np": "क्षेत्र नं. १",
+        "province": "Sudurpashchim",
+        "district": "Bajura",
+        "total_votes_counted": 0,
+        "total_registered_voters": 87861,
+        "total_cast_votes": 46232,
+        "counting_complete": false,
+        "status": "pending",
+        "candidates": [
+            {
+                "id": 341303,
+                "name": "Janak Raj Giri",
+                "name_np": "जनक राज गिरी",
+                "party": "Nepali Congress",
+                "party_abbr": "NC",
+                "party_color": "#1e3a8a",
+                "party_name": "नेपाली काँग्रेस",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/341303.jpg",
+                "votes": 0,
+                "percentage": 0,
+                "position": 1,
+                "status": "trailing"
+            },
+            {
+                "id": 340567,
+                "name": "Lal Bahadur Thapa",
+                "name_np": "लाल बहादुर थापा",
+                "party": "CPN-UML",
+                "party_abbr": "UML",
+                "party_color": "#dc2626",
+                "party_name": "नेपाल कम्युनिष्ट पार्टी (एकीकृत मार्क्सवादी लेनिनवादी)",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340567.jpg",
+                "votes": 0,
+                "percentage": 0,
+                "position": 2,
+                "status": "trailing"
+            },
+            {
+                "id": 340150,
+                "name": "Hemraj Thapa",
+                "name_np": "हेमराज थापा",
+                "party": "Rastriya Swatantra Party",
+                "party_abbr": "RSP",
+                "party_color": "#7c3aed",
+                "party_name": "राष्ट्रिय स्वतन्त्र पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340150.jpg",
+                "votes": 0,
+                "percentage": 0,
+                "position": 3,
+                "status": "trailing"
+            }
+        ],
+        "winner": null
+    }
+}

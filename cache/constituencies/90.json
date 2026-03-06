@@ -1,0 +1,61 @@
+{
+    "fetched_at": 1772796064,
+    "ttl": 60,
+    "data": {
+        "id": 90,
+        "name": "Parsa-4",
+        "name_np": "क्षेत्र नं. ४",
+        "province": "Madhesh",
+        "district": "Parsa",
+        "total_votes_counted": 982,
+        "total_registered_voters": 95213,
+        "total_cast_votes": 61888,
+        "counting_complete": false,
+        "status": "counting",
+        "candidates": [
+            {
+                "id": 342274,
+                "name": "Tek Bahadur Shakya",
+                "name_np": "टेक वहादुर शाक्य",
+                "party": "Rastriya Swatantra Party",
+                "party_abbr": "RSP",
+                "party_color": "#7c3aed",
+                "party_name": "राष्ट्रिय स्वतन्त्र पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/342274.jpg",
+                "votes": 575,
+                "percentage": 58.6,
+                "position": 1,
+                "status": "leading"
+            },
+            {
+                "id": 339906,
+                "name": "Zalim Miya Mansuri",
+                "name_np": "जालिम मियाँ मंसुरी",
+                "party": "CPN-UML",
+                "party_abbr": "UML",
+                "party_color": "#dc2626",
+                "party_name": "नेपाल कम्युनिष्ट पार्टी (एकीकृत मार्क्सवादी लेनिनवादी)",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/339906.jpg",
+                "votes": 233,
+                "percentage": 23.7,
+                "position": 2,
+                "status": "trailing"
+            },
+            {
+                "id": 341102,
+                "name": "Ramesh Rijal",
+                "name_np": "रमेश रिजाल",
+                "party": "Nepali Congress",
+                "party_abbr": "NC",
+                "party_color": "#1e3a8a",
+                "party_name": "नेपाली काँग्रेस",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/341102.jpg",
+                "votes": 174,
+                "percentage": 17.7,
+                "position": 3,
+                "status": "trailing"
+            }
+        ],
+        "winner": null
+    }
+}

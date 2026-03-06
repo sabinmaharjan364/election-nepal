@@ -1,0 +1,61 @@
+{
+    "fetched_at": 1772796064,
+    "ttl": 60,
+    "data": {
+        "id": 134,
+        "name": "Jumla-1",
+        "name_np": "क्षेत्र नं. १",
+        "province": "Karnali",
+        "district": "Jumla",
+        "total_votes_counted": 5431,
+        "total_registered_voters": 71739,
+        "total_cast_votes": 41208,
+        "counting_complete": false,
+        "status": "counting",
+        "candidates": [
+            {
+                "id": 341535,
+                "name": "Gyan Bahadur Shahi",
+                "name_np": "ज्ञान बहादुर शाही",
+                "party": "Rastriya Prajatantra Party",
+                "party_abbr": "RPP",
+                "party_color": "#d97706",
+                "party_name": "राष्ट्रिय प्रजातन्त्र पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/341535.jpg",
+                "votes": 3963,
+                "percentage": 73,
+                "position": 1,
+                "status": "leading"
+            },
+            {
+                "id": 339930,
+                "name": "Naresh Bhandari",
+                "name_np": "नरेश भण्‍डारी",
+                "party": "CPN (Maoist Centre)",
+                "party_abbr": "MC",
+                "party_color": "#7f1d1d",
+                "party_name": "नेपाली कम्युनिष्ट पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/339930.jpg",
+                "votes": 972,
+                "percentage": 17.9,
+                "position": 2,
+                "status": "trailing"
+            },
+            {
+                "id": 341715,
+                "name": "Deep Bahadur Shahi",
+                "name_np": "दिप बहादुर शाही",
+                "party": "Nepali Congress",
+                "party_abbr": "NC",
+                "party_color": "#1e3a8a",
+                "party_name": "नेपाली काँग्रेस",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/341715.jpg",
+                "votes": 496,
+                "percentage": 9.1,
+                "position": 3,
+                "status": "trailing"
+            }
+        ],
+        "winner": null
+    }
+}

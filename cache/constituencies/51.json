@@ -1,0 +1,61 @@
+{
+    "fetched_at": 1772796064,
+    "ttl": 60,
+    "data": {
+        "id": 51,
+        "name": "Sarlahi-3",
+        "name_np": "क्षेत्र नं. ३",
+        "province": "Madhesh",
+        "district": "Sarlahi",
+        "total_votes_counted": 3552,
+        "total_registered_voters": 134412,
+        "total_cast_votes": 82272,
+        "counting_complete": false,
+        "status": "counting",
+        "candidates": [
+            {
+                "id": 339904,
+                "name": "Narendra Shah Kalwar",
+                "name_np": "नरेन्द्र साह कलवार",
+                "party": "Rastriya Swatantra Party",
+                "party_abbr": "RSP",
+                "party_color": "#7c3aed",
+                "party_name": "राष्ट्रिय स्वतन्त्र पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/339904.jpg",
+                "votes": 2804,
+                "percentage": 78.9,
+                "position": 1,
+                "status": "leading"
+            },
+            {
+                "id": 340441,
+                "name": "Narayan Kazi Shrestha",
+                "name_np": "नारायण काजी श्रेष्‍ठ",
+                "party": "CPN (Maoist Centre)",
+                "party_abbr": "MC",
+                "party_color": "#7f1d1d",
+                "party_name": "नेपाली कम्युनिष्ट पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340441.jpg",
+                "votes": 440,
+                "percentage": 12.4,
+                "position": 2,
+                "status": "trailing"
+            },
+            {
+                "id": 341765,
+                "name": "Binod Kumar Khanal",
+                "name_np": "विनोद कुमार खनाल",
+                "party": "Nepali Congress",
+                "party_abbr": "NC",
+                "party_color": "#1e3a8a",
+                "party_name": "नेपाली काँग्रेस",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/341765.jpg",
+                "votes": 308,
+                "percentage": 8.7,
+                "position": 3,
+                "status": "trailing"
+            }
+        ],
+        "winner": null
+    }
+}

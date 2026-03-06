@@ -1,0 +1,61 @@
+{
+    "fetched_at": 1772796064,
+    "ttl": 60,
+    "data": {
+        "id": 156,
+        "name": "Kailali-5",
+        "name_np": "क्षेत्र नं. ५",
+        "province": "Sudurpashchim",
+        "district": "Kailali",
+        "total_votes_counted": 6265,
+        "total_registered_voters": 110539,
+        "total_cast_votes": 62969,
+        "counting_complete": false,
+        "status": "counting",
+        "candidates": [
+            {
+                "id": 339984,
+                "name": "Anand Bahadur Chand",
+                "name_np": "आनन्‍द बहादुर चन्‍द",
+                "party": "Rastriya Swatantra Party",
+                "party_abbr": "RSP",
+                "party_color": "#7c3aed",
+                "party_name": "राष्ट्रिय स्वतन्त्र पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/339984.jpg",
+                "votes": 3944,
+                "percentage": 63,
+                "position": 1,
+                "status": "leading"
+            },
+            {
+                "id": 340383,
+                "name": "Nar Narayan Shah",
+                "name_np": "नर नारायण शाह",
+                "party": "Nepali Congress",
+                "party_abbr": "NC",
+                "party_color": "#1e3a8a",
+                "party_name": "नेपाली काँग्रेस",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340383.jpg",
+                "votes": 1475,
+                "percentage": 23.5,
+                "position": 2,
+                "status": "trailing"
+            },
+            {
+                "id": 341203,
+                "name": "Yagya Raj Dhungana Upadhyaya",
+                "name_np": "यज्ञ राज ढुंगाना उपाध्याय",
+                "party": "CPN-UML",
+                "party_abbr": "UML",
+                "party_color": "#dc2626",
+                "party_name": "नेपाल कम्युनिष्ट पार्टी (एकीकृत मार्क्सवादी लेनिनवादी)",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/341203.jpg",
+                "votes": 846,
+                "percentage": 13.5,
+                "position": 3,
+                "status": "trailing"
+            }
+        ],
+        "winner": null
+    }
+}

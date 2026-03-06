@@ -1,0 +1,61 @@
+{
+    "fetched_at": 1772796064,
+    "ttl": 60,
+    "data": {
+        "id": 93,
+        "name": "Chitwan-3",
+        "name_np": "क्षेत्र नं. ३",
+        "province": "Bagmati",
+        "district": "Chitwan",
+        "total_votes_counted": 16600,
+        "total_registered_voters": 155309,
+        "total_cast_votes": 100053,
+        "counting_complete": false,
+        "status": "counting",
+        "candidates": [
+            {
+                "id": 341145,
+                "name": "Sovita Gautam",
+                "name_np": "सोविता गौतम",
+                "party": "Rastriya Swatantra Party",
+                "party_abbr": "RSP",
+                "party_color": "#7c3aed",
+                "party_name": "राष्ट्रिय स्वतन्त्र पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/341145.jpg",
+                "votes": 9879,
+                "percentage": 59.5,
+                "position": 1,
+                "status": "leading"
+            },
+            {
+                "id": 339835,
+                "name": "Renu Dahal",
+                "name_np": "रेणु दाहाल",
+                "party": "CPN (Maoist Centre)",
+                "party_abbr": "MC",
+                "party_color": "#7f1d1d",
+                "party_name": "नेपाली कम्युनिष्ट पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/339835.jpg",
+                "votes": 5256,
+                "percentage": 31.7,
+                "position": 2,
+                "status": "trailing"
+            },
+            {
+                "id": 340259,
+                "name": "Shankar Raj Thapaliya",
+                "name_np": "शंकर राज थपलिया",
+                "party": "CPN-UML",
+                "party_abbr": "UML",
+                "party_color": "#dc2626",
+                "party_name": "नेपाल कम्युनिष्ट पार्टी (एकीकृत मार्क्सवादी लेनिनवादी)",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340259.jpg",
+                "votes": 1465,
+                "percentage": 8.8,
+                "position": 3,
+                "status": "trailing"
+            }
+        ],
+        "winner": null
+    }
+}

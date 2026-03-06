@@ -1,0 +1,61 @@
+{
+    "fetched_at": 1772796064,
+    "ttl": 60,
+    "data": {
+        "id": 151,
+        "name": "Doti-1",
+        "name_np": "क्षेत्र नं. १",
+        "province": "Sudurpashchim",
+        "district": "Doti",
+        "total_votes_counted": 3119,
+        "total_registered_voters": 128399,
+        "total_cast_votes": 52485,
+        "counting_complete": false,
+        "status": "counting",
+        "candidates": [
+            {
+                "id": 340117,
+                "name": "Deepak Bahadur Dhami",
+                "name_np": "दीपक बहादुर धामी",
+                "party": "CPN-UML",
+                "party_abbr": "UML",
+                "party_color": "#dc2626",
+                "party_name": "नेपाल कम्युनिष्ट पार्टी (एकीकृत मार्क्सवादी लेनिनवादी)",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340117.jpg",
+                "votes": 1224,
+                "percentage": 39.2,
+                "position": 1,
+                "status": "leading"
+            },
+            {
+                "id": 339731,
+                "name": "Trilochan Bhatta",
+                "name_np": "त्रिलोचन भट्ट",
+                "party": "CPN (Maoist Centre)",
+                "party_abbr": "MC",
+                "party_color": "#7f1d1d",
+                "party_name": "नेपाली कम्युनिष्ट पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/339731.jpg",
+                "votes": 1075,
+                "percentage": 34.5,
+                "position": 2,
+                "status": "trailing"
+            },
+            {
+                "id": 341208,
+                "name": "Bharat Bahadur Khadka",
+                "name_np": "भरत बहादुर खड्का",
+                "party": "Nepali Congress",
+                "party_abbr": "NC",
+                "party_color": "#1e3a8a",
+                "party_name": "नेपाली काँग्रेस",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/341208.jpg",
+                "votes": 820,
+                "percentage": 26.3,
+                "position": 3,
+                "status": "trailing"
+            }
+        ],
+        "winner": null
+    }
+}

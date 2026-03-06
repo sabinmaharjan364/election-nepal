@@ -1,0 +1,61 @@
+{
+    "fetched_at": 1772796064,
+    "ttl": 60,
+    "data": {
+        "id": 137,
+        "name": "Jajarkot-1",
+        "name_np": "क्षेत्र नं. १",
+        "province": "Karnali",
+        "district": "Jajarkot",
+        "total_votes_counted": 3262,
+        "total_registered_voters": 107091,
+        "total_cast_votes": 61657,
+        "counting_complete": false,
+        "status": "counting",
+        "candidates": [
+            {
+                "id": 342453,
+                "name": "Khadak Bahadur Budha",
+                "name_np": "खडक वहादुर वुढा",
+                "party": "Nepali Congress",
+                "party_abbr": "NC",
+                "party_color": "#1e3a8a",
+                "party_name": "नेपाली काँग्रेस",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/342453.jpg",
+                "votes": 1706,
+                "percentage": 52.3,
+                "position": 1,
+                "status": "leading"
+            },
+            {
+                "id": 340356,
+                "name": "Dumbar Bahadur Singh",
+                "name_np": "डम्बर बहादुर सिंह",
+                "party": "CPN-UML",
+                "party_abbr": "UML",
+                "party_color": "#dc2626",
+                "party_name": "नेपाल कम्युनिष्ट पार्टी (एकीकृत मार्क्सवादी लेनिनवादी)",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340356.jpg",
+                "votes": 804,
+                "percentage": 24.6,
+                "position": 2,
+                "status": "trailing"
+            },
+            {
+                "id": 341130,
+                "name": "Shakti Bahadur Basnet",
+                "name_np": "शक्ति बहादुर वस्नेत",
+                "party": "CPN (Maoist Centre)",
+                "party_abbr": "MC",
+                "party_color": "#7f1d1d",
+                "party_name": "नेपाली कम्युनिष्ट पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/341130.jpg",
+                "votes": 752,
+                "percentage": 23.1,
+                "position": 3,
+                "status": "trailing"
+            }
+        ],
+        "winner": null
+    }
+}

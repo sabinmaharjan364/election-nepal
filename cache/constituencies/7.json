@@ -1,0 +1,61 @@
+{
+    "fetched_at": 1772796064,
+    "ttl": 60,
+    "data": {
+        "id": 7,
+        "name": "Jhapa-3",
+        "name_np": "क्षेत्र नं. ३",
+        "province": "Koshi",
+        "district": "Jhapa",
+        "total_votes_counted": 6580,
+        "total_registered_voters": 140857,
+        "total_cast_votes": 88449,
+        "counting_complete": false,
+        "status": "counting",
+        "candidates": [
+            {
+                "id": 339542,
+                "name": "Prakash Pathak",
+                "name_np": "प्रकाश पाठक",
+                "party": "Rastriya Swatantra Party",
+                "party_abbr": "RSP",
+                "party_color": "#7c3aed",
+                "party_name": "राष्ट्रिय स्वतन्त्र पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/339542.jpg",
+                "votes": 3215,
+                "percentage": 48.9,
+                "position": 1,
+                "status": "leading"
+            },
+            {
+                "id": 339403,
+                "name": "Rajendra Prasad Lingden",
+                "name_np": "राजेन्द्र प्रसाद लिङ्देन",
+                "party": "Rastriya Prajatantra Party",
+                "party_abbr": "RPP",
+                "party_color": "#d97706",
+                "party_name": "राष्ट्रिय प्रजातन्त्र पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/339403.jpg",
+                "votes": 2199,
+                "percentage": 33.4,
+                "position": 2,
+                "status": "trailing"
+            },
+            {
+                "id": 339824,
+                "name": "Deepak Timsina",
+                "name_np": "दिपक तिम्सिना",
+                "party": "Shram Sanskriti Party",
+                "party_abbr": "LSP",
+                "party_color": "#84cc16",
+                "party_name": "श्रम संस्कृति पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/339824.jpg",
+                "votes": 1166,
+                "percentage": 17.7,
+                "position": 3,
+                "status": "trailing"
+            }
+        ],
+        "winner": null
+    }
+}

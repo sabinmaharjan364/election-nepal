@@ -1,0 +1,61 @@
+{
+    "fetched_at": 1772796064,
+    "ttl": 60,
+    "data": {
+        "id": 1,
+        "name": "Taplejung-1",
+        "name_np": "क्षेत्र नं. १",
+        "province": "Koshi",
+        "district": "Taplejung",
+        "total_votes_counted": 1976,
+        "total_registered_voters": 90327,
+        "total_cast_votes": 0,
+        "counting_complete": false,
+        "status": "counting",
+        "candidates": [
+            {
+                "id": 341131,
+                "name": "Gajendra Prasad Tumyang Limbu",
+                "name_np": "गजेन्द्र प्रसाद तुम्याङ लिम्बु",
+                "party": "Nepali Congress",
+                "party_abbr": "NC",
+                "party_color": "#1e3a8a",
+                "party_name": "नेपाली काँग्रेस",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/341131.jpg",
+                "votes": 786,
+                "percentage": 39.8,
+                "position": 1,
+                "status": "leading"
+            },
+            {
+                "id": 339610,
+                "name": "Khel Prasad Budakshetri",
+                "name_np": "खेल प्रसाद बुडाक्षेत्री",
+                "party": "CPN (Maoist Centre)",
+                "party_abbr": "MC",
+                "party_color": "#7f1d1d",
+                "party_name": "नेपाली कम्युनिष्ट पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/339610.jpg",
+                "votes": 722,
+                "percentage": 36.5,
+                "position": 2,
+                "status": "trailing"
+            },
+            {
+                "id": 339933,
+                "name": "Kshitij Thebe",
+                "name_np": "क्षितिज थेबे",
+                "party": "CPN-UML",
+                "party_abbr": "UML",
+                "party_color": "#dc2626",
+                "party_name": "नेपाल कम्युनिष्ट पार्टी (एकीकृत मार्क्सवादी लेनिनवादी)",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/339933.jpg",
+                "votes": 468,
+                "percentage": 23.7,
+                "position": 3,
+                "status": "trailing"
+            }
+        ],
+        "winner": null
+    }
+}

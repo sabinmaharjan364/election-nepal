@@ -1,0 +1,61 @@
+{
+    "fetched_at": 1772796064,
+    "ttl": 60,
+    "data": {
+        "id": 5,
+        "name": "Jhapa-1",
+        "name_np": "क्षेत्र नं. १",
+        "province": "Koshi",
+        "district": "Jhapa",
+        "total_votes_counted": 3002,
+        "total_registered_voters": 131067,
+        "total_cast_votes": 83803,
+        "counting_complete": false,
+        "status": "counting",
+        "candidates": [
+            {
+                "id": 339485,
+                "name": "Nisha Dangi",
+                "name_np": "निशा डाँगी",
+                "party": "Rastriya Swatantra Party",
+                "party_abbr": "RSP",
+                "party_color": "#7c3aed",
+                "party_name": "राष्ट्रिय स्वतन्त्र पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/339485.jpg",
+                "votes": 1702,
+                "percentage": 56.7,
+                "position": 1,
+                "status": "leading"
+            },
+            {
+                "id": 339617,
+                "name": "Kewalram Rai",
+                "name_np": "केवलराम राई",
+                "party": "Shram Sanskriti Party",
+                "party_abbr": "LSP",
+                "party_color": "#84cc16",
+                "party_name": "श्रम संस्कृति पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/339617.jpg",
+                "votes": 775,
+                "percentage": 25.8,
+                "position": 2,
+                "status": "trailing"
+            },
+            {
+                "id": 340934,
+                "name": "Keshav Raj Pandey",
+                "name_np": "केशव राज पाण्डे",
+                "party": "Nepali Congress",
+                "party_abbr": "NC",
+                "party_color": "#1e3a8a",
+                "party_name": "नेपाली काँग्रेस",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340934.jpg",
+                "votes": 525,
+                "percentage": 17.5,
+                "position": 3,
+                "status": "trailing"
+            }
+        ],
+        "winner": null
+    }
+}

@@ -1,0 +1,61 @@
+{
+    "fetched_at": 1772796064,
+    "ttl": 60,
+    "data": {
+        "id": 28,
+        "name": "Udayapur-2",
+        "name_np": "क्षेत्र नं. २",
+        "province": "Koshi",
+        "district": "Udayapur",
+        "total_votes_counted": 628,
+        "total_registered_voters": 96122,
+        "total_cast_votes": 44634,
+        "counting_complete": false,
+        "status": "counting",
+        "candidates": [
+            {
+                "id": 340503,
+                "name": "Balraj Rai",
+                "name_np": "वलराज राई",
+                "party": "Shram Sanskriti Party",
+                "party_abbr": "LSP",
+                "party_color": "#84cc16",
+                "party_name": "श्रम संस्कृति पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340503.jpg",
+                "votes": 296,
+                "percentage": 47.1,
+                "position": 1,
+                "status": "leading"
+            },
+            {
+                "id": 340225,
+                "name": "Suresh Kumar Rai",
+                "name_np": "सुरेश कुमार राई",
+                "party": "CPN (Maoist Centre)",
+                "party_abbr": "MC",
+                "party_color": "#7f1d1d",
+                "party_name": "नेपाली कम्युनिष्ट पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340225.jpg",
+                "votes": 193,
+                "percentage": 30.7,
+                "position": 2,
+                "status": "trailing"
+            },
+            {
+                "id": 339923,
+                "name": "Amwar Bahadur Rayamajhi",
+                "name_np": "अम्वर बहादुर रायामाझी",
+                "party": "CPN-UML",
+                "party_abbr": "UML",
+                "party_color": "#dc2626",
+                "party_name": "नेपाल कम्युनिष्ट पार्टी (एकीकृत मार्क्सवादी लेनिनवादी)",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/339923.jpg",
+                "votes": 139,
+                "percentage": 22.1,
+                "position": 3,
+                "status": "trailing"
+            }
+        ],
+        "winner": null
+    }
+}

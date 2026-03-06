@@ -1,0 +1,61 @@
+{
+    "fetched_at": 1772796064,
+    "ttl": 60,
+    "data": {
+        "id": 142,
+        "name": "Banke-1",
+        "name_np": "क्षेत्र नं. १",
+        "province": "Lumbini",
+        "district": "Banke",
+        "total_votes_counted": 11092,
+        "total_registered_voters": 124727,
+        "total_cast_votes": 0,
+        "counting_complete": false,
+        "status": "counting",
+        "candidates": [
+            {
+                "id": 341907,
+                "name": "Suresh Kumar Chaudhary",
+                "name_np": "सुरेश कुमार चौधरी",
+                "party": "Rastriya Swatantra Party",
+                "party_abbr": "RSP",
+                "party_color": "#7c3aed",
+                "party_name": "राष्ट्रिय स्वतन्त्र पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/341907.jpg",
+                "votes": 6899,
+                "percentage": 62.2,
+                "position": 1,
+                "status": "leading"
+            },
+            {
+                "id": 340994,
+                "name": "Narayan Prasad Gaudel",
+                "name_np": "नारायण प्रसाद गौडेल",
+                "party": "Nepali Congress",
+                "party_abbr": "NC",
+                "party_color": "#1e3a8a",
+                "party_name": "नेपाली काँग्रेस",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340994.jpg",
+                "votes": 2496,
+                "percentage": 22.5,
+                "position": 2,
+                "status": "trailing"
+            },
+            {
+                "id": 339720,
+                "name": "Surya Prasad Dhakal",
+                "name_np": "सुर्य प्रसाद ढकाल",
+                "party": "CPN-UML",
+                "party_abbr": "UML",
+                "party_color": "#dc2626",
+                "party_name": "नेपाल कम्युनिष्ट पार्टी (एकीकृत मार्क्सवादी लेनिनवादी)",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/339720.jpg",
+                "votes": 1697,
+                "percentage": 15.3,
+                "position": 3,
+                "status": "trailing"
+            }
+        ],
+        "winner": null
+    }
+}

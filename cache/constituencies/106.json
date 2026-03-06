@@ -1,0 +1,61 @@
+{
+    "fetched_at": 1772796064,
+    "ttl": 60,
+    "data": {
+        "id": 106,
+        "name": "Gulmi-2",
+        "name_np": "क्षेत्र नं. २",
+        "province": "Lumbini",
+        "district": "Gulmi",
+        "total_votes_counted": 1058,
+        "total_registered_voters": 107363,
+        "total_cast_votes": 0,
+        "counting_complete": false,
+        "status": "counting",
+        "candidates": [
+            {
+                "id": 341282,
+                "name": "Govinda Panthi",
+                "name_np": "गोविन्द पन्थी",
+                "party": "Rastriya Swatantra Party",
+                "party_abbr": "RSP",
+                "party_color": "#7c3aed",
+                "party_name": "राष्ट्रिय स्वतन्त्र पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/341282.jpg",
+                "votes": 502,
+                "percentage": 47.4,
+                "position": 1,
+                "status": "leading"
+            },
+            {
+                "id": 340185,
+                "name": "Gokarna Raj Bista",
+                "name_np": "गोकर्ण राज विष्‍ट",
+                "party": "CPN-UML",
+                "party_abbr": "UML",
+                "party_color": "#dc2626",
+                "party_name": "नेपाल कम्युनिष्ट पार्टी (एकीकृत मार्क्सवादी लेनिनवादी)",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340185.jpg",
+                "votes": 299,
+                "percentage": 28.3,
+                "position": 2,
+                "status": "trailing"
+            },
+            {
+                "id": 340000,
+                "name": "Bhuvan Prasad Shrestha",
+                "name_np": "भुवन प्रसाद श्रेष्ठ",
+                "party": "Nepali Congress",
+                "party_abbr": "NC",
+                "party_color": "#1e3a8a",
+                "party_name": "नेपाली काँग्रेस",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340000.jpg",
+                "votes": 257,
+                "percentage": 24.3,
+                "position": 3,
+                "status": "trailing"
+            }
+        ],
+        "winner": null
+    }
+}

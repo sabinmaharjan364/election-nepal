@@ -1,0 +1,61 @@
+{
+    "fetched_at": 1772796064,
+    "ttl": 60,
+    "data": {
+        "id": 113,
+        "name": "Rupandehi-2",
+        "name_np": "क्षेत्र नं. २",
+        "province": "Lumbini",
+        "district": "Rupandehi",
+        "total_votes_counted": 24985,
+        "total_registered_voters": 135050,
+        "total_cast_votes": 86715,
+        "counting_complete": false,
+        "status": "counting",
+        "candidates": [
+            {
+                "id": 341184,
+                "name": "Sulabh Kharel",
+                "name_np": "सुलभ खरेल",
+                "party": "Rastriya Swatantra Party",
+                "party_abbr": "RSP",
+                "party_color": "#7c3aed",
+                "party_name": "राष्ट्रिय स्वतन्त्र पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/341184.jpg",
+                "votes": 18539,
+                "percentage": 74.2,
+                "position": 1,
+                "status": "leading"
+            },
+            {
+                "id": 340782,
+                "name": "Vishnu Prasad Poudel",
+                "name_np": "विष्‍णु प्रसाद पौडेल",
+                "party": "CPN-UML",
+                "party_abbr": "UML",
+                "party_color": "#dc2626",
+                "party_name": "नेपाल कम्युनिष्ट पार्टी (एकीकृत मार्क्सवादी लेनिनवादी)",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340782.jpg",
+                "votes": 3996,
+                "percentage": 16,
+                "position": 2,
+                "status": "trailing"
+            },
+            {
+                "id": 340486,
+                "name": "Chunna Prasad Sharma",
+                "name_np": "चुन्‍न प्रसाद शर्मा",
+                "party": "Nepali Congress",
+                "party_abbr": "NC",
+                "party_color": "#1e3a8a",
+                "party_name": "नेपाली काँग्रेस",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340486.jpg",
+                "votes": 2450,
+                "percentage": 9.8,
+                "position": 3,
+                "status": "trailing"
+            }
+        ],
+        "winner": null
+    }
+}

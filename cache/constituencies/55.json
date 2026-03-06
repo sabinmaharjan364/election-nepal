@@ -1,0 +1,61 @@
+{
+    "fetched_at": 1772796064,
+    "ttl": 60,
+    "data": {
+        "id": 55,
+        "name": "Dhading-2",
+        "name_np": "क्षेत्र नं. २",
+        "province": "Bagmati",
+        "district": "Dhading",
+        "total_votes_counted": 2762,
+        "total_registered_voters": 138594,
+        "total_cast_votes": 0,
+        "counting_complete": false,
+        "status": "counting",
+        "candidates": [
+            {
+                "id": 341179,
+                "name": "Ram Bahadur Bhandari",
+                "name_np": "राम बहादुर भण्डारी",
+                "party": "CPN (Maoist Centre)",
+                "party_abbr": "MC",
+                "party_color": "#7f1d1d",
+                "party_name": "नेपाली कम्युनिष्ट पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/341179.jpg",
+                "votes": 1144,
+                "percentage": 41.4,
+                "position": 1,
+                "status": "leading"
+            },
+            {
+                "id": 340121,
+                "name": "Ramesh Prasad Dhamla",
+                "name_np": "रमेश प्रसाद धमला",
+                "party": "Nepali Congress",
+                "party_abbr": "NC",
+                "party_color": "#1e3a8a",
+                "party_name": "नेपाली काँग्रेस",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340121.jpg",
+                "votes": 1014,
+                "percentage": 36.7,
+                "position": 2,
+                "status": "trailing"
+            },
+            {
+                "id": 341345,
+                "name": "Suresh Rijal",
+                "name_np": "सुरेश रिजाल",
+                "party": "Rastriya Prajatantra Party",
+                "party_abbr": "RPP",
+                "party_color": "#d97706",
+                "party_name": "राष्ट्रिय प्रजातन्त्र पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/341345.jpg",
+                "votes": 604,
+                "percentage": 21.9,
+                "position": 3,
+                "status": "trailing"
+            }
+        ],
+        "winner": null
+    }
+}

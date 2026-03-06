@@ -1,0 +1,61 @@
+{
+    "fetched_at": 1772796064,
+    "ttl": 60,
+    "data": {
+        "id": 127,
+        "name": "Pyuthan-1",
+        "name_np": "क्षेत्र नं. १",
+        "province": "Lumbini",
+        "district": "Pyuthan",
+        "total_votes_counted": 4664,
+        "total_registered_voters": 165406,
+        "total_cast_votes": 0,
+        "counting_complete": false,
+        "status": "counting",
+        "candidates": [
+            {
+                "id": 340321,
+                "name": "Dr. Govinda Raj Pokharel",
+                "name_np": "डा .गोविन्द राज पोखरेल",
+                "party": "Nepali Congress",
+                "party_abbr": "NC",
+                "party_color": "#1e3a8a",
+                "party_name": "नेपाली काँग्रेस",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340321.jpg",
+                "votes": 2262,
+                "percentage": 48.5,
+                "position": 1,
+                "status": "leading"
+            },
+            {
+                "id": 340722,
+                "name": "Sushant Vedic",
+                "name_np": "सुशान्त वैदिक",
+                "party": "Rastriya Swatantra Party",
+                "party_abbr": "RSP",
+                "party_color": "#7c3aed",
+                "party_name": "राष्ट्रिय स्वतन्त्र पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340722.jpg",
+                "votes": 1715,
+                "percentage": 36.8,
+                "position": 2,
+                "status": "trailing"
+            },
+            {
+                "id": 340629,
+                "name": "Surya Bahadur Thapa Chhetri",
+                "name_np": "सूर्य बहादुर  थापा क्षेत्री",
+                "party": "CPN-UML",
+                "party_abbr": "UML",
+                "party_color": "#dc2626",
+                "party_name": "नेपाल कम्युनिष्ट पार्टी (एकीकृत मार्क्सवादी लेनिनवादी)",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340629.jpg",
+                "votes": 687,
+                "percentage": 14.7,
+                "position": 3,
+                "status": "trailing"
+            }
+        ],
+        "winner": null
+    }
+}

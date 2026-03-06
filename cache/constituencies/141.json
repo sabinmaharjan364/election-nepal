@@ -1,0 +1,61 @@
+{
+    "fetched_at": 1772796064,
+    "ttl": 60,
+    "data": {
+        "id": 141,
+        "name": "Surkhet-2",
+        "name_np": "क्षेत्र नं. २",
+        "province": "Karnali",
+        "district": "Surkhet",
+        "total_votes_counted": 5554,
+        "total_registered_voters": 126041,
+        "total_cast_votes": 73356,
+        "counting_complete": false,
+        "status": "counting",
+        "candidates": [
+            {
+                "id": 340194,
+                "name": "Ramesh Kumar Sapkota",
+                "name_np": "रमेश कुमार सापकोटा",
+                "party": "Rastriya Swatantra Party",
+                "party_abbr": "RSP",
+                "party_color": "#7c3aed",
+                "party_name": "राष्ट्रिय स्वतन्त्र पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340194.jpg",
+                "votes": 1974,
+                "percentage": 35.5,
+                "position": 1,
+                "status": "leading"
+            },
+            {
+                "id": 339970,
+                "name": "Kulmani Devkota",
+                "name_np": "कुलमणि देवकोटा",
+                "party": "CPN-UML",
+                "party_abbr": "UML",
+                "party_color": "#dc2626",
+                "party_name": "नेपाल कम्युनिष्ट पार्टी (एकीकृत मार्क्सवादी लेनिनवादी)",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/339970.jpg",
+                "votes": 1917,
+                "percentage": 34.5,
+                "position": 2,
+                "status": "trailing"
+            },
+            {
+                "id": 341438,
+                "name": "Narayan Kumar Koirala",
+                "name_np": "नारायण कुमार कोइराला",
+                "party": "Nepali Congress",
+                "party_abbr": "NC",
+                "party_color": "#1e3a8a",
+                "party_name": "नेपाली काँग्रेस",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/341438.jpg",
+                "votes": 1663,
+                "percentage": 29.9,
+                "position": 3,
+                "status": "trailing"
+            }
+        ],
+        "winner": null
+    }
+}

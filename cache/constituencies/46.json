@@ -1,0 +1,61 @@
+{
+    "fetched_at": 1772796064,
+    "ttl": 60,
+    "data": {
+        "id": 46,
+        "name": "Mahottari-2",
+        "name_np": "क्षेत्र नं. २",
+        "province": "Madhesh",
+        "district": "Mahottari",
+        "total_votes_counted": 991,
+        "total_registered_voters": 107594,
+        "total_cast_votes": 64845,
+        "counting_complete": false,
+        "status": "counting",
+        "candidates": [
+            {
+                "id": 341190,
+                "name": "Deepak Kumar Shah",
+                "name_np": "दिपक कुमार साह",
+                "party": "Rastriya Swatantra Party",
+                "party_abbr": "RSP",
+                "party_color": "#7c3aed",
+                "party_name": "राष्ट्रिय स्वतन्त्र पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/341190.jpg",
+                "votes": 728,
+                "percentage": 73.5,
+                "position": 1,
+                "status": "leading"
+            },
+            {
+                "id": 341460,
+                "name": "Sharat Singh Bhandari",
+                "name_np": "शरत सिंह भण्डारी",
+                "party": "Janata Samajwadi Party Nepal",
+                "party_abbr": "JSP",
+                "party_color": "#0891b2",
+                "party_name": "जनता समाजवादी पार्टी, नेपाल",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/341460.jpg",
+                "votes": 169,
+                "percentage": 17.1,
+                "position": 2,
+                "status": "trailing"
+            },
+            {
+                "id": 340662,
+                "name": "Kiran Yadav",
+                "name_np": "किरण यादव",
+                "party": "Nepali Congress",
+                "party_abbr": "NC",
+                "party_color": "#1e3a8a",
+                "party_name": "नेपाली काँग्रेस",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340662.jpg",
+                "votes": 94,
+                "percentage": 9.5,
+                "position": 3,
+                "status": "trailing"
+            }
+        ],
+        "winner": null
+    }
+}

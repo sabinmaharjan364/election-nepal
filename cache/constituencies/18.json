@@ -1,0 +1,61 @@
+{
+    "fetched_at": 1772796064,
+    "ttl": 60,
+    "data": {
+        "id": 18,
+        "name": "Morang-5",
+        "name_np": "क्षेत्र नं. ५",
+        "province": "Koshi",
+        "district": "Morang",
+        "total_votes_counted": 6648,
+        "total_registered_voters": 110177,
+        "total_cast_votes": 78529,
+        "counting_complete": false,
+        "status": "counting",
+        "candidates": [
+            {
+                "id": 341509,
+                "name": "Asha Jha",
+                "name_np": "आशा झा",
+                "party": "Rastriya Swatantra Party",
+                "party_abbr": "RSP",
+                "party_color": "#7c3aed",
+                "party_name": "राष्ट्रिय स्वतन्त्र पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/341509.jpg",
+                "votes": 3996,
+                "percentage": 60.1,
+                "position": 1,
+                "status": "leading"
+            },
+            {
+                "id": 340375,
+                "name": "Raj Kumar Yadav",
+                "name_np": "राज कुमार यादव",
+                "party": "Janata Samajwadi Party Nepal",
+                "party_abbr": "JSP",
+                "party_color": "#0891b2",
+                "party_name": "जनता समाजवादी पार्टी, नेपाल",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340375.jpg",
+                "votes": 1366,
+                "percentage": 20.5,
+                "position": 2,
+                "status": "trailing"
+            },
+            {
+                "id": 339521,
+                "name": "Shiva Kumar Mandal (Kewat)",
+                "name_np": "शिव कुमार मंडल (केवट)",
+                "party": "CPN (Maoist Centre)",
+                "party_abbr": "MC",
+                "party_color": "#7f1d1d",
+                "party_name": "नेपाली कम्युनिष्ट पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/339521.jpg",
+                "votes": 1286,
+                "percentage": 19.3,
+                "position": 3,
+                "status": "trailing"
+            }
+        ],
+        "winner": null
+    }
+}

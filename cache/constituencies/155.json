@@ -1,0 +1,61 @@
+{
+    "fetched_at": 1772796064,
+    "ttl": 60,
+    "data": {
+        "id": 155,
+        "name": "Kailali-4",
+        "name_np": "क्षेत्र नं. ४",
+        "province": "Sudurpashchim",
+        "district": "Kailali",
+        "total_votes_counted": 693,
+        "total_registered_voters": 115143,
+        "total_cast_votes": 57015,
+        "counting_complete": false,
+        "status": "counting",
+        "candidates": [
+            {
+                "id": 342757,
+                "name": "Khem Raj Koirala",
+                "name_np": "खेम राज कोईराला",
+                "party": "Rastriya Swatantra Party",
+                "party_abbr": "RSP",
+                "party_color": "#7c3aed",
+                "party_name": "राष्ट्रिय स्वतन्त्र पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/342757.jpg",
+                "votes": 501,
+                "percentage": 72.3,
+                "position": 1,
+                "status": "leading"
+            },
+            {
+                "id": 341859,
+                "name": "Gorakh Bahadur Bista",
+                "name_np": "गोरख बहादुर विष्ट",
+                "party": "Nepali Congress",
+                "party_abbr": "NC",
+                "party_color": "#1e3a8a",
+                "party_name": "नेपाली काँग्रेस",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/341859.jpg",
+                "votes": 162,
+                "percentage": 23.4,
+                "position": 2,
+                "status": "trailing"
+            },
+            {
+                "id": 340533,
+                "name": "Lekh Raj Bhatta",
+                "name_np": "लेख राज भट्ट",
+                "party": "CPN-UML",
+                "party_abbr": "UML",
+                "party_color": "#dc2626",
+                "party_name": "नेपाल कम्युनिष्ट पार्टी (एकीकृत मार्क्सवादी लेनिनवादी)",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340533.jpg",
+                "votes": 30,
+                "percentage": 4.3,
+                "position": 3,
+                "status": "trailing"
+            }
+        ],
+        "winner": null
+    }
+}

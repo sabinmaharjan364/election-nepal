@@ -1,0 +1,61 @@
+{
+    "fetched_at": 1772796064,
+    "ttl": 60,
+    "data": {
+        "id": 160,
+        "name": "Kanchanpur-1",
+        "name_np": "क्षेत्र नं. १",
+        "province": "Sudurpashchim",
+        "district": "Kanchanpur",
+        "total_votes_counted": 4438,
+        "total_registered_voters": 101724,
+        "total_cast_votes": 61074,
+        "counting_complete": false,
+        "status": "counting",
+        "candidates": [
+            {
+                "id": 339943,
+                "name": "Janak Singh Dhami",
+                "name_np": "जनक सिंह धामी",
+                "party": "Rastriya Swatantra Party",
+                "party_abbr": "RSP",
+                "party_color": "#7c3aed",
+                "party_name": "राष्ट्रिय स्वतन्त्र पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/339943.jpg",
+                "votes": 1830,
+                "percentage": 41.2,
+                "position": 1,
+                "status": "leading"
+            },
+            {
+                "id": 340717,
+                "name": "Tara Lama Tamang",
+                "name_np": "तारा लामा तामाङ",
+                "party": "CPN-UML",
+                "party_abbr": "UML",
+                "party_color": "#dc2626",
+                "party_name": "नेपाल कम्युनिष्ट पार्टी (एकीकृत मार्क्सवादी लेनिनवादी)",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340717.jpg",
+                "votes": 1519,
+                "percentage": 34.2,
+                "position": 2,
+                "status": "trailing"
+            },
+            {
+                "id": 340979,
+                "name": "Bina Magar",
+                "name_np": "बीना मगर",
+                "party": "CPN (Maoist Centre)",
+                "party_abbr": "MC",
+                "party_color": "#7f1d1d",
+                "party_name": "नेपाली कम्युनिष्ट पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340979.jpg",
+                "votes": 1089,
+                "percentage": 24.5,
+                "position": 3,
+                "status": "trailing"
+            }
+        ],
+        "winner": null
+    }
+}

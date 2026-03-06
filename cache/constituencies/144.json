@@ -1,0 +1,61 @@
+{
+    "fetched_at": 1772796064,
+    "ttl": 60,
+    "data": {
+        "id": 144,
+        "name": "Banke-3",
+        "name_np": "क्षेत्र नं. ३",
+        "province": "Lumbini",
+        "district": "Banke",
+        "total_votes_counted": 12594,
+        "total_registered_voters": 117354,
+        "total_cast_votes": 0,
+        "counting_complete": false,
+        "status": "counting",
+        "candidates": [
+            {
+                "id": 339589,
+                "name": "Khagendra Sunar",
+                "name_np": "खगेन्द्र सुनार",
+                "party": "Rastriya Swatantra Party",
+                "party_abbr": "RSP",
+                "party_color": "#7c3aed",
+                "party_name": "राष्ट्रिय स्वतन्त्र पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/339589.jpg",
+                "votes": 6618,
+                "percentage": 52.5,
+                "position": 1,
+                "status": "leading"
+            },
+            {
+                "id": 340035,
+                "name": "Suman Malla",
+                "name_np": "सुमन मल्ल",
+                "party": "CPN-UML",
+                "party_abbr": "UML",
+                "party_color": "#dc2626",
+                "party_name": "नेपाल कम्युनिष्ट पार्टी (एकीकृत मार्क्सवादी लेनिनवादी)",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340035.jpg",
+                "votes": 3655,
+                "percentage": 29,
+                "position": 2,
+                "status": "trailing"
+            },
+            {
+                "id": 342191,
+                "name": "Amar Singh Pun",
+                "name_np": "अमर सिह पुन",
+                "party": "Nepali Congress",
+                "party_abbr": "NC",
+                "party_color": "#1e3a8a",
+                "party_name": "नेपाली काँग्रेस",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/342191.jpg",
+                "votes": 2321,
+                "percentage": 18.4,
+                "position": 3,
+                "status": "trailing"
+            }
+        ],
+        "winner": null
+    }
+}

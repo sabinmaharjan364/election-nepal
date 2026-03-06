@@ -1,0 +1,61 @@
+{
+    "fetched_at": 1772796064,
+    "ttl": 60,
+    "data": {
+        "id": 107,
+        "name": "Palpa-1",
+        "name_np": "क्षेत्र नं. १",
+        "province": "Lumbini",
+        "district": "Palpa",
+        "total_votes_counted": 5130,
+        "total_registered_voters": 98383,
+        "total_cast_votes": 51881,
+        "counting_complete": false,
+        "status": "counting",
+        "candidates": [
+            {
+                "id": 341313,
+                "name": "Bimal Pant",
+                "name_np": "विमल पन्त",
+                "party": "Rastriya Swatantra Party",
+                "party_abbr": "RSP",
+                "party_color": "#7c3aed",
+                "party_name": "राष्ट्रिय स्वतन्त्र पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/341313.jpg",
+                "votes": 2572,
+                "percentage": 50.1,
+                "position": 1,
+                "status": "leading"
+            },
+            {
+                "id": 341027,
+                "name": "Sandeep Rana",
+                "name_np": "सन्दीप राना",
+                "party": "Nepali Congress",
+                "party_abbr": "NC",
+                "party_color": "#1e3a8a",
+                "party_name": "नेपाली काँग्रेस",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/341027.jpg",
+                "votes": 1323,
+                "percentage": 25.8,
+                "position": 2,
+                "status": "trailing"
+            },
+            {
+                "id": 340207,
+                "name": "Narayan Prasad Acharya",
+                "name_np": "नारायण प्रसाद आचार्य",
+                "party": "CPN-UML",
+                "party_abbr": "UML",
+                "party_color": "#dc2626",
+                "party_name": "नेपाल कम्युनिष्ट पार्टी (एकीकृत मार्क्सवादी लेनिनवादी)",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340207.jpg",
+                "votes": 1235,
+                "percentage": 24.1,
+                "position": 3,
+                "status": "trailing"
+            }
+        ],
+        "winner": null
+    }
+}

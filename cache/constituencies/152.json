@@ -1,0 +1,61 @@
+{
+    "fetched_at": 1772796064,
+    "ttl": 60,
+    "data": {
+        "id": 152,
+        "name": "Kailali-1",
+        "name_np": "क्षेत्र नं. १",
+        "province": "Sudurpashchim",
+        "district": "Kailali",
+        "total_votes_counted": 2955,
+        "total_registered_voters": 108491,
+        "total_cast_votes": 54245,
+        "counting_complete": false,
+        "status": "counting",
+        "candidates": [
+            {
+                "id": 342184,
+                "name": "Komal Gyawali",
+                "name_np": "कोमल ज्ञवाली",
+                "party": "Rastriya Swatantra Party",
+                "party_abbr": "RSP",
+                "party_color": "#7c3aed",
+                "party_name": "राष्ट्रिय स्वतन्त्र पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/342184.jpg",
+                "votes": 1293,
+                "percentage": 43.8,
+                "position": 1,
+                "status": "leading"
+            },
+            {
+                "id": 341307,
+                "name": "Janakraj Chaudhary",
+                "name_np": "जनकराज चौधरी",
+                "party": "Nepali Congress",
+                "party_abbr": "NC",
+                "party_color": "#1e3a8a",
+                "party_name": "नेपाली काँग्रेस",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/341307.jpg",
+                "votes": 902,
+                "percentage": 30.5,
+                "position": 2,
+                "status": "trailing"
+            },
+            {
+                "id": 341978,
+                "name": "Phagu Ram Tharu",
+                "name_np": "फागु राम थारु",
+                "party": "Independent",
+                "party_abbr": "IND",
+                "party_color": "#6b7280",
+                "party_name": "स्वतन्त्र",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/341978.jpg",
+                "votes": 760,
+                "percentage": 25.7,
+                "position": 3,
+                "status": "trailing"
+            }
+        ],
+        "winner": null
+    }
+}

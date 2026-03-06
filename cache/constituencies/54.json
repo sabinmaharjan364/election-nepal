@@ -1,0 +1,61 @@
+{
+    "fetched_at": 1772796064,
+    "ttl": 60,
+    "data": {
+        "id": 54,
+        "name": "Dhading-1",
+        "name_np": "क्षेत्र नं. १",
+        "province": "Bagmati",
+        "district": "Dhading",
+        "total_votes_counted": 9386,
+        "total_registered_voters": 136686,
+        "total_cast_votes": 0,
+        "counting_complete": false,
+        "status": "counting",
+        "candidates": [
+            {
+                "id": 342066,
+                "name": "Asika Tamang",
+                "name_np": "आसिका तामाङ",
+                "party": "Rastriya Swatantra Party",
+                "party_abbr": "RSP",
+                "party_color": "#7c3aed",
+                "party_name": "राष्ट्रिय स्वतन्त्र पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/342066.jpg",
+                "votes": 5309,
+                "percentage": 56.6,
+                "position": 1,
+                "status": "leading"
+            },
+            {
+                "id": 340810,
+                "name": "Bhumi Prasad Tripathi",
+                "name_np": "भुमि प्रसाद त्रिपाठी",
+                "party": "CPN-UML",
+                "party_abbr": "UML",
+                "party_color": "#dc2626",
+                "party_name": "नेपाल कम्युनिष्ट पार्टी (एकीकृत मार्क्सवादी लेनिनवादी)",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340810.jpg",
+                "votes": 2624,
+                "percentage": 28,
+                "position": 2,
+                "status": "trailing"
+            },
+            {
+                "id": 341441,
+                "name": "Krishna Rijal",
+                "name_np": "कृष्ण रिजाल",
+                "party": "Nepali Congress",
+                "party_abbr": "NC",
+                "party_color": "#1e3a8a",
+                "party_name": "नेपाली काँग्रेस",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/341441.jpg",
+                "votes": 1453,
+                "percentage": 15.5,
+                "position": 3,
+                "status": "trailing"
+            }
+        ],
+        "winner": null
+    }
+}

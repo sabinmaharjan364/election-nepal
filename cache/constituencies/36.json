@@ -1,0 +1,61 @@
+{
+    "fetched_at": 1772796064,
+    "ttl": 60,
+    "data": {
+        "id": 36,
+        "name": "Siraha-4",
+        "name_np": "क्षेत्र नं. ४",
+        "province": "Madhesh",
+        "district": "Siraha",
+        "total_votes_counted": 741,
+        "total_registered_voters": 106686,
+        "total_cast_votes": 0,
+        "counting_complete": false,
+        "status": "counting",
+        "candidates": [
+            {
+                "id": 341713,
+                "name": "Tapeshwor Yadav",
+                "name_np": "तपेश्वर यादव",
+                "party": "Rastriya Swatantra Party",
+                "party_abbr": "RSP",
+                "party_color": "#7c3aed",
+                "party_name": "राष्ट्रिय स्वतन्त्र पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/341713.jpg",
+                "votes": 547,
+                "percentage": 73.8,
+                "position": 1,
+                "status": "leading"
+            },
+            {
+                "id": 341888,
+                "name": "Chandra Kala Kumari Yadav",
+                "name_np": "चन्द्र कला कुमारी यादव",
+                "party": "Nepali Congress",
+                "party_abbr": "NC",
+                "party_color": "#1e3a8a",
+                "party_name": "नेपाली काँग्रेस",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/341888.jpg",
+                "votes": 106,
+                "percentage": 14.3,
+                "position": 2,
+                "status": "trailing"
+            },
+            {
+                "id": 340417,
+                "name": "Birendra Prasad Mahato",
+                "name_np": "बिरेन्द्र प्रसाद महतो",
+                "party": "Janmat Party",
+                "party_abbr": "JP",
+                "party_color": "#065f46",
+                "party_name": "जनमत पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340417.jpg",
+                "votes": 88,
+                "percentage": 11.9,
+                "position": 3,
+                "status": "trailing"
+            }
+        ],
+        "winner": null
+    }
+}

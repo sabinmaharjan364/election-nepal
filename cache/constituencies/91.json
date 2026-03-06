@@ -1,0 +1,61 @@
+{
+    "fetched_at": 1772796064,
+    "ttl": 60,
+    "data": {
+        "id": 91,
+        "name": "Chitwan-1",
+        "name_np": "क्षेत्र नं. १",
+        "province": "Bagmati",
+        "district": "Chitwan",
+        "total_votes_counted": 7364,
+        "total_registered_voters": 149621,
+        "total_cast_votes": 96154,
+        "counting_complete": false,
+        "status": "counting",
+        "candidates": [
+            {
+                "id": 341241,
+                "name": "Hari Dhakal",
+                "name_np": "हरि ढकाल",
+                "party": "Rastriya Swatantra Party",
+                "party_abbr": "RSP",
+                "party_color": "#7c3aed",
+                "party_name": "राष्ट्रिय स्वतन्त्र पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/341241.jpg",
+                "votes": 3503,
+                "percentage": 47.6,
+                "position": 1,
+                "status": "leading"
+            },
+            {
+                "id": 339958,
+                "name": "Dawa Dorje Lama",
+                "name_np": "दावा दोर्जे लामा",
+                "party": "CPN-UML",
+                "party_abbr": "UML",
+                "party_color": "#dc2626",
+                "party_name": "नेपाल कम्युनिष्ट पार्टी (एकीकृत मार्क्सवादी लेनिनवादी)",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/339958.jpg",
+                "votes": 2109,
+                "percentage": 28.6,
+                "position": 2,
+                "status": "trailing"
+            },
+            {
+                "id": 341664,
+                "name": "Rajendra Prasad Burlakoti",
+                "name_np": "राजेन्द्र प्रसाद वुर्लाकोटी",
+                "party": "Nepali Congress",
+                "party_abbr": "NC",
+                "party_color": "#1e3a8a",
+                "party_name": "नेपाली काँग्रेस",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/341664.jpg",
+                "votes": 1752,
+                "percentage": 23.8,
+                "position": 3,
+                "status": "trailing"
+            }
+        ],
+        "winner": null
+    }
+}

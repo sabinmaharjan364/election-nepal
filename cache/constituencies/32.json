@@ -1,0 +1,61 @@
+{
+    "fetched_at": 1772796064,
+    "ttl": 60,
+    "data": {
+        "id": 32,
+        "name": "Saptari-4",
+        "name_np": "क्षेत्र नं. ४",
+        "province": "Madhesh",
+        "district": "Saptari",
+        "total_votes_counted": 6371,
+        "total_registered_voters": 109566,
+        "total_cast_votes": 60322,
+        "counting_complete": false,
+        "status": "counting",
+        "candidates": [
+            {
+                "id": 341103,
+                "name": "Sitaram Shah",
+                "name_np": "सिताराम साह",
+                "party": "Rastriya Swatantra Party",
+                "party_abbr": "RSP",
+                "party_color": "#7c3aed",
+                "party_name": "राष्ट्रिय स्वतन्त्र पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/341103.jpg",
+                "votes": 3681,
+                "percentage": 57.8,
+                "position": 1,
+                "status": "leading"
+            },
+            {
+                "id": 340625,
+                "name": "Teju Lal Chaudhary",
+                "name_np": "तेजु लाल चौधरी",
+                "party": "Nepali Congress",
+                "party_abbr": "NC",
+                "party_color": "#1e3a8a",
+                "party_name": "नेपाली काँग्रेस",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340625.jpg",
+                "votes": 1636,
+                "percentage": 25.7,
+                "position": 2,
+                "status": "trailing"
+            },
+            {
+                "id": 340112,
+                "name": "Bobby Singh",
+                "name_np": "वाँवी सिंह",
+                "party": "Janata Samajwadi Party Nepal",
+                "party_abbr": "JSP",
+                "party_color": "#0891b2",
+                "party_name": "जनता समाजवादी पार्टी, नेपाल",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340112.jpg",
+                "votes": 1054,
+                "percentage": 16.5,
+                "position": 3,
+                "status": "trailing"
+            }
+        ],
+        "winner": null
+    }
+}

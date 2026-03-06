@@ -1,0 +1,61 @@
+{
+    "fetched_at": 1772796064,
+    "ttl": 60,
+    "data": {
+        "id": 72,
+        "name": "Lalitpur-3",
+        "name_np": "क्षेत्र नं. ३",
+        "province": "Bagmati",
+        "district": "Lalitpur",
+        "total_votes_counted": 11282,
+        "total_registered_voters": 102437,
+        "total_cast_votes": 0,
+        "counting_complete": false,
+        "status": "counting",
+        "candidates": [
+            {
+                "id": 341547,
+                "name": "Tosima Karki",
+                "name_np": "तोसीमा कार्की",
+                "party": "Rastriya Swatantra Party",
+                "party_abbr": "RSP",
+                "party_color": "#7c3aed",
+                "party_name": "राष्ट्रिय स्वतन्त्र पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/341547.jpg",
+                "votes": 8871,
+                "percentage": 78.6,
+                "position": 1,
+                "status": "leading"
+            },
+            {
+                "id": 342051,
+                "name": "Jitendra Kumar Shrestha",
+                "name_np": "जितेन्द्र कुमार श्रेष्ठ",
+                "party": "Nepali Congress",
+                "party_abbr": "NC",
+                "party_color": "#1e3a8a",
+                "party_name": "नेपाली काँग्रेस",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/342051.jpg",
+                "votes": 1499,
+                "percentage": 13.3,
+                "position": 2,
+                "status": "trailing"
+            },
+            {
+                "id": 341869,
+                "name": "Raj Kazi Maharjan",
+                "name_np": "राज काजी महर्जन",
+                "party": "CPN (Maoist Centre)",
+                "party_abbr": "MC",
+                "party_color": "#7f1d1d",
+                "party_name": "नेपाली कम्युनिष्ट पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/341869.jpg",
+                "votes": 912,
+                "percentage": 8.1,
+                "position": 3,
+                "status": "trailing"
+            }
+        ],
+        "winner": null
+    }
+}

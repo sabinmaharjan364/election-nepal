@@ -1,0 +1,61 @@
+{
+    "fetched_at": 1772796064,
+    "ttl": 60,
+    "data": {
+        "id": 33,
+        "name": "Siraha-1",
+        "name_np": "क्षेत्र नं. १",
+        "province": "Madhesh",
+        "district": "Siraha",
+        "total_votes_counted": 4235,
+        "total_registered_voters": 111949,
+        "total_cast_votes": 0,
+        "counting_complete": false,
+        "status": "counting",
+        "candidates": [
+            {
+                "id": 340556,
+                "name": "Bablu Gupta",
+                "name_np": "बब्लु गुप्ता",
+                "party": "Rastriya Swatantra Party",
+                "party_abbr": "RSP",
+                "party_color": "#7c3aed",
+                "party_name": "राष्ट्रिय स्वतन्त्र पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340556.jpg",
+                "votes": 2787,
+                "percentage": 65.8,
+                "position": 1,
+                "status": "leading"
+            },
+            {
+                "id": 341756,
+                "name": "Ram Sundar Chaudhary",
+                "name_np": "राम सुन्दर चौधरी",
+                "party": "Nepali Congress",
+                "party_abbr": "NC",
+                "party_color": "#1e3a8a",
+                "party_name": "नेपाली काँग्रेस",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/341756.jpg",
+                "votes": 972,
+                "percentage": 23,
+                "position": 2,
+                "status": "trailing"
+            },
+            {
+                "id": 341049,
+                "name": "Ram Shankar Yadav",
+                "name_np": "राम शंकर यादव",
+                "party": "CPN-UML",
+                "party_abbr": "UML",
+                "party_color": "#dc2626",
+                "party_name": "नेपाल कम्युनिष्ट पार्टी (एकीकृत मार्क्सवादी लेनिनवादी)",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/341049.jpg",
+                "votes": 476,
+                "percentage": 11.2,
+                "position": 3,
+                "status": "trailing"
+            }
+        ],
+        "winner": null
+    }
+}

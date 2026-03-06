@@ -1,0 +1,61 @@
+{
+    "fetched_at": 1772796064,
+    "ttl": 60,
+    "data": {
+        "id": 14,
+        "name": "Morang-1",
+        "name_np": "क्षेत्र नं. १",
+        "province": "Koshi",
+        "district": "Morang",
+        "total_votes_counted": 6775,
+        "total_registered_voters": 128545,
+        "total_cast_votes": 77585,
+        "counting_complete": false,
+        "status": "counting",
+        "candidates": [
+            {
+                "id": 341227,
+                "name": "Yagyamani Neupane",
+                "name_np": "यज्ञमणि  न्याैपाने",
+                "party": "Rastriya Swatantra Party",
+                "party_abbr": "RSP",
+                "party_color": "#7c3aed",
+                "party_name": "राष्ट्रिय स्वतन्त्र पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/341227.jpg",
+                "votes": 3394,
+                "percentage": 50.1,
+                "position": 1,
+                "status": "leading"
+            },
+            {
+                "id": 339426,
+                "name": "Shanti Pakhrin Lama",
+                "name_np": "शान्ती पाख्रिन लामा",
+                "party": "Shram Sanskriti Party",
+                "party_abbr": "LSP",
+                "party_color": "#84cc16",
+                "party_name": "श्रम संस्कृति पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/339426.jpg",
+                "votes": 2036,
+                "percentage": 30.1,
+                "position": 2,
+                "status": "trailing"
+            },
+            {
+                "id": 340351,
+                "name": "Khadga Bahadur Phago",
+                "name_np": "खड्ग बहादुर फागो",
+                "party": "Nepali Congress",
+                "party_abbr": "NC",
+                "party_color": "#1e3a8a",
+                "party_name": "नेपाली काँग्रेस",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340351.jpg",
+                "votes": 1345,
+                "percentage": 19.9,
+                "position": 3,
+                "status": "trailing"
+            }
+        ],
+        "winner": null
+    }
+}

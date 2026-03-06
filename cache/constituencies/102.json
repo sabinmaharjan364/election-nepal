@@ -1,0 +1,61 @@
+{
+    "fetched_at": 1772796064,
+    "ttl": 60,
+    "data": {
+        "id": 102,
+        "name": "Tanahun-2",
+        "name_np": "क्षेत्र नं. २",
+        "province": "Gandaki",
+        "district": "Tanahun",
+        "total_votes_counted": 2235,
+        "total_registered_voters": 127515,
+        "total_cast_votes": 0,
+        "counting_complete": false,
+        "status": "counting",
+        "candidates": [
+            {
+                "id": 341124,
+                "name": "Shriram Neupane",
+                "name_np": "श्रीराम न्यौपाने",
+                "party": "Rastriya Swatantra Party",
+                "party_abbr": "RSP",
+                "party_color": "#7c3aed",
+                "party_name": "राष्ट्रिय स्वतन्त्र पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/341124.jpg",
+                "votes": 1489,
+                "percentage": 66.6,
+                "position": 1,
+                "status": "leading"
+            },
+            {
+                "id": 341920,
+                "name": "Shankar Bhandari",
+                "name_np": "शंकर भण्डारी",
+                "party": "Nepali Congress",
+                "party_abbr": "NC",
+                "party_color": "#1e3a8a",
+                "party_name": "नेपाली काँग्रेस",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/341920.jpg",
+                "votes": 557,
+                "percentage": 24.9,
+                "position": 2,
+                "status": "trailing"
+            },
+            {
+                "id": 340267,
+                "name": "Kedar Sigdel",
+                "name_np": "केदार सिग्देल",
+                "party": "CPN-UML",
+                "party_abbr": "UML",
+                "party_color": "#dc2626",
+                "party_name": "नेपाल कम्युनिष्ट पार्टी (एकीकृत मार्क्सवादी लेनिनवादी)",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340267.jpg",
+                "votes": 189,
+                "percentage": 8.5,
+                "position": 3,
+                "status": "trailing"
+            }
+        ],
+        "winner": null
+    }
+}

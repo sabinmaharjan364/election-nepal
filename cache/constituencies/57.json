@@ -1,0 +1,61 @@
+{
+    "fetched_at": 1772796064,
+    "ttl": 60,
+    "data": {
+        "id": 57,
+        "name": "Nuwakot-2",
+        "name_np": "क्षेत्र नं. २",
+        "province": "Bagmati",
+        "district": "Nuwakot",
+        "total_votes_counted": 7924,
+        "total_registered_voters": 123939,
+        "total_cast_votes": 0,
+        "counting_complete": false,
+        "status": "counting",
+        "candidates": [
+            {
+                "id": 341708,
+                "name": "Achuttam Lamichhane",
+                "name_np": "अचुत्तम लामिछाने",
+                "party": "Rastriya Swatantra Party",
+                "party_abbr": "RSP",
+                "party_color": "#7c3aed",
+                "party_name": "राष्ट्रिय स्वतन्त्र पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/341708.jpg",
+                "votes": 3965,
+                "percentage": 50,
+                "position": 1,
+                "status": "leading"
+            },
+            {
+                "id": 340902,
+                "name": "Jagadishwar Narasimha K.C.",
+                "name_np": "जगदिश्‍वर नरसिंह के.सी.",
+                "party": "Nepali Congress",
+                "party_abbr": "NC",
+                "party_color": "#1e3a8a",
+                "party_name": "नेपाली काँग्रेस",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340902.jpg",
+                "votes": 2066,
+                "percentage": 26.1,
+                "position": 2,
+                "status": "trailing"
+            },
+            {
+                "id": 340613,
+                "name": "Keshav Raj Pandey",
+                "name_np": "केशव राज पाण्डे",
+                "party": "CPN-UML",
+                "party_abbr": "UML",
+                "party_color": "#dc2626",
+                "party_name": "नेपाल कम्युनिष्ट पार्टी (एकीकृत मार्क्सवादी लेनिनवादी)",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340613.jpg",
+                "votes": 1893,
+                "percentage": 23.9,
+                "position": 3,
+                "status": "trailing"
+            }
+        ],
+        "winner": null
+    }
+}

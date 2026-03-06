@@ -1,0 +1,19 @@
+{
+    "fetched_at": 1772796064,
+    "ttl": 60,
+    "data": {
+        "election_name": "प्रतिनिधि सभा निर्वाचन २०८२",
+        "election_name_en": "House of Representatives Election 2082",
+        "total_constituencies": 165,
+        "results_declared": 0,
+        "counting_in_progress": 127,
+        "total_votes_counted": 949264,
+        "total_cast_votes": 5838197,
+        "total_registered_voters": 18903689,
+        "turnout_percentage": 30.9,
+        "leading_party": "Rastriya Swatantra Party",
+        "leading_party_seats": 85,
+        "last_updated": "2026-03-06T11:20:23+00:00",
+        "data_source": "Hamro Patro"
+    }
+}

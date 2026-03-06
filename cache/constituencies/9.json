@@ -1,0 +1,61 @@
+{
+    "fetched_at": 1772796064,
+    "ttl": 60,
+    "data": {
+        "id": 9,
+        "name": "Jhapa-5",
+        "name_np": "क्षेत्र नं. ५",
+        "province": "Koshi",
+        "district": "Jhapa",
+        "total_votes_counted": 8195,
+        "total_registered_voters": 163379,
+        "total_cast_votes": 106310,
+        "counting_complete": false,
+        "status": "counting",
+        "candidates": [
+            {
+                "id": 339653,
+                "name": "Balendra Shah",
+                "name_np": "वालेन्द्र शाह",
+                "party": "Rastriya Swatantra Party",
+                "party_abbr": "RSP",
+                "party_color": "#7c3aed",
+                "party_name": "राष्ट्रिय स्वतन्त्र पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/339653.jpg",
+                "votes": 6551,
+                "percentage": 79.9,
+                "position": 1,
+                "status": "leading"
+            },
+            {
+                "id": 340111,
+                "name": "KP Sharma Oli",
+                "name_np": "के.पी शर्मा ओली",
+                "party": "CPN-UML",
+                "party_abbr": "UML",
+                "party_color": "#dc2626",
+                "party_name": "नेपाल कम्युनिष्ट पार्टी (एकीकृत मार्क्सवादी लेनिनवादी)",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340111.jpg",
+                "votes": 1428,
+                "percentage": 17.4,
+                "position": 2,
+                "status": "trailing"
+            },
+            {
+                "id": 340445,
+                "name": "Mandhara Chimaria",
+                "name_np": "मंधरा चिमरिया",
+                "party": "Nepali Congress",
+                "party_abbr": "NC",
+                "party_color": "#1e3a8a",
+                "party_name": "नेपाली काँग्रेस",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340445.jpg",
+                "votes": 216,
+                "percentage": 2.6,
+                "position": 3,
+                "status": "trailing"
+            }
+        ],
+        "winner": null
+    }
+}

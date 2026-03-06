@@ -1,0 +1,61 @@
+{
+    "fetched_at": 1772796064,
+    "ttl": 60,
+    "data": {
+        "id": 95,
+        "name": "Gorkha-2",
+        "name_np": "क्षेत्र नं. २",
+        "province": "Gandaki",
+        "district": "Gorkha",
+        "total_votes_counted": 1149,
+        "total_registered_voters": 108533,
+        "total_cast_votes": 0,
+        "counting_complete": false,
+        "status": "counting",
+        "candidates": [
+            {
+                "id": 339991,
+                "name": "Kavindra Burlakoti",
+                "name_np": "कविन्द्र बुर्लाकोटी",
+                "party": "Rastriya Swatantra Party",
+                "party_abbr": "RSP",
+                "party_color": "#7c3aed",
+                "party_name": "राष्ट्रिय स्वतन्त्र पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/339991.jpg",
+                "votes": 791,
+                "percentage": 68.8,
+                "position": 1,
+                "status": "leading"
+            },
+            {
+                "id": 340023,
+                "name": "Lekhnath Neupane",
+                "name_np": "लेखनाथ न्यौपाने",
+                "party": "CPN (Maoist Centre)",
+                "party_abbr": "MC",
+                "party_color": "#7f1d1d",
+                "party_name": "नेपाली कम्युनिष्ट पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340023.jpg",
+                "votes": 221,
+                "percentage": 19.2,
+                "position": 2,
+                "status": "trailing"
+            },
+            {
+                "id": 340687,
+                "name": "Prakash Chandra Dawadi",
+                "name_np": "प्रकाश चन्‍द्र दवाडी",
+                "party": "Nepali Congress",
+                "party_abbr": "NC",
+                "party_color": "#1e3a8a",
+                "party_name": "नेपाली काँग्रेस",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340687.jpg",
+                "votes": 137,
+                "percentage": 11.9,
+                "position": 3,
+                "status": "trailing"
+            }
+        ],
+        "winner": null
+    }
+}

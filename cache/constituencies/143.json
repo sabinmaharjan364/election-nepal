@@ -1,0 +1,61 @@
+{
+    "fetched_at": 1772796064,
+    "ttl": 60,
+    "data": {
+        "id": 143,
+        "name": "Banke-2",
+        "name_np": "क्षेत्र नं. २",
+        "province": "Lumbini",
+        "district": "Banke",
+        "total_votes_counted": 12204,
+        "total_registered_voters": 108290,
+        "total_cast_votes": 0,
+        "counting_complete": false,
+        "status": "counting",
+        "candidates": [
+            {
+                "id": 340037,
+                "name": "Mohammad Ishtiaq Rai",
+                "name_np": "मोहम्मद इश्तियाक राई",
+                "party": "CPN-UML",
+                "party_abbr": "UML",
+                "party_color": "#dc2626",
+                "party_name": "नेपाल कम्युनिष्ट पार्टी (एकीकृत मार्क्सवादी लेनिनवादी)",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340037.jpg",
+                "votes": 5244,
+                "percentage": 43,
+                "position": 1,
+                "status": "leading"
+            },
+            {
+                "id": 340606,
+                "name": "Sudhansu Koirala",
+                "name_np": "सुधान्सु कोइराला",
+                "party": "Nepali Congress",
+                "party_abbr": "NC",
+                "party_color": "#1e3a8a",
+                "party_name": "नेपाली काँग्रेस",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340606.jpg",
+                "votes": 4161,
+                "percentage": 34.1,
+                "position": 2,
+                "status": "trailing"
+            },
+            {
+                "id": 341812,
+                "name": "Vivek Kumar Shrestha",
+                "name_np": "विवेक कुमार श्रेष्ठ",
+                "party": "Rastriya Swatantra Party",
+                "party_abbr": "RSP",
+                "party_color": "#7c3aed",
+                "party_name": "राष्ट्रिय स्वतन्त्र पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/341812.jpg",
+                "votes": 2799,
+                "percentage": 22.9,
+                "position": 3,
+                "status": "trailing"
+            }
+        ],
+        "winner": null
+    }
+}

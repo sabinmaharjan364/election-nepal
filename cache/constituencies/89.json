@@ -1,0 +1,61 @@
+{
+    "fetched_at": 1772796064,
+    "ttl": 60,
+    "data": {
+        "id": 89,
+        "name": "Parsa-3",
+        "name_np": "क्षेत्र नं. ३",
+        "province": "Madhesh",
+        "district": "Parsa",
+        "total_votes_counted": 3607,
+        "total_registered_voters": 96542,
+        "total_cast_votes": 53098,
+        "counting_complete": false,
+        "status": "counting",
+        "candidates": [
+            {
+                "id": 340309,
+                "name": "Ramakant Prasad Chaurasiya",
+                "name_np": "रामाकान्त प्रसाद चौरसीया",
+                "party": "Rastriya Swatantra Party",
+                "party_abbr": "RSP",
+                "party_color": "#7c3aed",
+                "party_name": "राष्ट्रिय स्वतन्त्र पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340309.jpg",
+                "votes": 2030,
+                "percentage": 56.3,
+                "position": 1,
+                "status": "leading"
+            },
+            {
+                "id": 342129,
+                "name": "Surendra Prasad Chaudhary",
+                "name_np": "सुरेन्‍द्र प्रसाद चौधरी",
+                "party": "Nepali Congress",
+                "party_abbr": "NC",
+                "party_color": "#1e3a8a",
+                "party_name": "नेपाली काँग्रेस",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/342129.jpg",
+                "votes": 1088,
+                "percentage": 30.2,
+                "position": 2,
+                "status": "trailing"
+            },
+            {
+                "id": 340588,
+                "name": "Rupesh Kumar Pandey",
+                "name_np": "रुपेश कुमार पाण्डेय",
+                "party": "CPN-UML",
+                "party_abbr": "UML",
+                "party_color": "#dc2626",
+                "party_name": "नेपाल कम्युनिष्ट पार्टी (एकीकृत मार्क्सवादी लेनिनवादी)",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340588.jpg",
+                "votes": 489,
+                "percentage": 13.6,
+                "position": 3,
+                "status": "trailing"
+            }
+        ],
+        "winner": null
+    }
+}

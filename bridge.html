@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>ECN Data Bridge</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: system-ui, sans-serif; background: #0f0f1e; color: #e2e8f0; min-height: 100vh; padding: 24px; }
+  h1 { font-size: 1.25rem; font-weight: 700; color: #fff; margin-bottom: 4px; }
+  p.sub { font-size: 0.8rem; color: #64748b; margin-bottom: 24px; }
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  @media(max-width:700px){ .grid { grid-template-columns: 1fr; } }
+  .card { background: #1e1e2e; border: 1px solid #2d2d3e; border-radius: 12px; padding: 20px; margin-bottom: 16px; }
+  .card h2 { font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; color: #64748b; margin-bottom: 12px; }
+  .status-row { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; font-size: 0.875rem; }
+  .dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+  .dot.ok      { background: #22c55e; }
+  .dot.error   { background: #ef4444; }
+  .dot.pending { background: #f59e0b; animation: pulse 1s infinite; }
+  .dot.idle    { background: #475569; }
+  @keyframes pulse { 0%,100%{opacity:1}50%{opacity:.4} }
+  .label { color: #94a3b8; flex: 1; }
+  .badge { font-size: 0.7rem; padding: 2px 8px; border-radius: 999px; font-weight: 600; }
+  .badge.ok    { background: #166534; color: #86efac; }
+  .badge.error { background: #7f1d1d; color: #fca5a5; }
+  .badge.skip  { background: #1e3a5f; color: #93c5fd; }
+  button { background: #3b82f6; color: white; border: none; border-radius: 8px; padding: 10px 20px;
+           font-size: 0.875rem; font-weight: 600; cursor: pointer; margin-right: 8px; margin-bottom: 8px; }
+  button:hover { background: #2563eb; }
+  button.stop  { background: #ef4444; }
+  button.stop:hover  { background: #dc2626; }
+  button.amber { background: #d97706; }
+  button.amber:hover { background: #b45309; }
+  button.green { background: #16a34a; }
+  button.green:hover { background: #15803d; }
+  #log { font-family: monospace; font-size: 0.75rem; color: #64748b; max-height: 250px; overflow-y: auto;
+         background: #0a0a14; border-radius: 8px; padding: 12px; margin-top: 12px; white-space: pre-wrap; }
+  .log-ok    { color: #22c55e; }
+  .log-error { color: #ef4444; }
+  .log-info  { color: #94a3b8; }
+  .log-warn  { color: #f59e0b; }
+  .counter   { font-size: 2rem; font-weight: 900; color: #3b82f6; }
+  #rawPanel  { font-family: monospace; font-size: 0.72rem; background: #0a0a14; border-radius: 8px;
+               padding: 12px; max-height: 400px; overflow-y: auto; color: #94a3b8; white-space: pre-wrap; }
+  select, input[type=number], input[type=text] {
+    background: #0a0a14; border: 1px solid #2d2d3e; color: #e2e8f0;
+    border-radius: 6px; padding: 8px 12px; font-size: 0.85rem;
+  }
+  input[type=text] { width: 100%; }
+  .sniff-url { background: #0f2e1a; border: 1px solid #166534; border-radius: 6px; padding: 6px 10px;
+               font-family: monospace; font-size: 0.72rem; color: #86efac; cursor: pointer;
+               margin-bottom: 4px; display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+  .sniff-url:hover { background: #15432a; }
+  .sniff-url span { word-break: break-all; }
+  .sniff-use { font-size: 0.65rem; background: #22c55e; color: #fff; border: none; border-radius: 4px;
+               padding: 2px 8px; cursor: pointer; flex-shrink: 0; }
+  .sniff-use:hover { background: #16a34a; }
+  .alert { background: #1e3a5f; border: 1px solid #3b82f6; border-radius: 8px; padding: 12px;
+           font-size: 0.82rem; color: #93c5fd; line-height: 1.6; margin-bottom: 12px; }
+  .alert strong { color: #fff; }
+  code { background: #0a0a14; border-radius: 4px; padding: 1px 6px; font-size: 0.8rem; color: #f0abfc; }
+</style>
+</head>
+<body>
+
+<h1>ECN Data Bridge</h1>
+<p class="sub">Fetches live data from result.election.gov.np via your browser and pushes it to your local PHP API cache</p>
+
+<!-- Step 1: Discover endpoints -->
+<div class="card" id="stepDiscover">
+  <h2>Step 1 — Discover Live Endpoints</h2>
+  <div class="alert">
+    <strong>Why this step?</strong> The bridge runs here (<code>election.test</code>), so it can't fetch
+    from ECN directly due to CORS. You need to <strong>open result.election.gov.np in a new tab</strong>,
+    paste the sniffer script in console, interact with the page, then copy the discovered URLs back here.
+  </div>
+  <button class="amber" onclick="copySnifferScript()">Copy Sniffer Script</button>
+  <button onclick="window.open('https://result.election.gov.np', '_blank')">Open ECN Site</button>
+  <p style="font-size:0.75rem;color:#64748b;margin-top:8px;">
+    1. Click "Open ECN Site" → 2. Paste sniffer in console → 3. Click around the page → 4. Run
+    <code>copy(JSON.stringify(window._ecnUrls,null,2))</code> → 5. Paste below
+  </p>
+  <textarea id="pasteUrls" placeholder='Paste JSON array of discovered URLs here, e.g. ["/SecureJson.ashx?file=..."]'
+    style="width:100%;height:80px;margin-top:10px;background:#0a0a14;border:1px solid #2d2d3e;border-radius:6px;padding:8px;color:#e2e8f0;font-family:monospace;font-size:0.75rem;resize:vertical;"></textarea>
+  <button class="green" onclick="loadDiscoveredUrls()" style="margin-top:8px;">Load Discovered URLs</button>
+  <div id="discoveredList" style="margin-top:12px;"></div>
+</div>
+
+<div class="grid">
+  <!-- Left: Controls & Status -->
+  <div>
+    <div class="card">
+      <h2>Step 2 — Fetch Status</h2>
+      <div style="display:flex;gap:24px;margin-bottom:16px;">
+        <div><div class="counter" id="cycles">0</div><div style="font-size:0.7rem;color:#64748b">Cycles</div></div>
+        <div><div class="counter" id="pushes">0</div><div style="font-size:0.7rem;color:#64748b">Pushes OK</div></div>
+        <div><div class="counter" id="nextIn" style="color:#f59e0b">—</div><div style="font-size:0.7rem;color:#64748b">Next (s)</div></div>
+      </div>
+      <div id="statusRows"></div>
+    </div>
+
+    <div class="card">
+      <h2>Controls</h2>
+      <div style="margin-bottom:10px;">
+        <button onclick="runCycle()">Fetch Now</button>
+        <button onclick="startAuto()" id="btnStart">Auto (60s)</button>
+        <button onclick="stopAuto()" id="btnStop" class="stop" style="display:none">Stop</button>
+      </div>
+
+      <!-- Manual constituency fetch -->
+      <div style="display:flex;gap:8px;align-items:center;margin-bottom:8px;">
+        <input type="number" id="constId" min="1" max="165" value="1" style="width:80px;" placeholder="ID">
+        <button onclick="fetchConstituency()">Fetch Constituency</button>
+      </div>
+      <p style="font-size:0.75rem;color:#475569;">Fetch a specific constituency result by ID (1–165)</p>
+
+      <!-- Custom endpoint -->
+      <div style="margin-top:12px;">
+        <p style="font-size:0.75rem;color:#64748b;margin-bottom:6px;">Try a custom ECN URL path:</p>
+        <div style="display:flex;gap:8px;">
+          <input type="text" id="customPath" placeholder="/SecureJson.ashx?file=JSONFiles/..." style="flex:1;">
+          <button onclick="tryCustomPath()">Try</button>
+        </div>
+      </div>
+
+      <div id="log"><span class="log-info">Ready. Discover endpoints first, then press "Fetch Now".</span></div>
+    </div>
+  </div>
+
+  <!-- Right: Raw data inspector -->
+  <div>
+    <div class="card" style="height:100%;">
+      <h2>Raw ECN Response Inspector</h2>
+      <p style="font-size:0.75rem;color:#475569;margin-bottom:10px;">
+        Shows the actual JSON structure from ECN — use this to verify field names for the normalizer.
+      </p>
+      <select id="rawSelect" onchange="showRaw(this.value)" style="width:100%;margin-bottom:10px;">
+        <option value="">— Select a fetched endpoint —</option>
+      </select>
+      <div id="rawPanel">No data fetched yet.</div>
+    </div>
+  </div>
+</div>
+
+<script>
+const PHP_API  = 'http://election.test/api/ingest.php';
+const ECN_BASE = 'https://result.election.gov.np';
+
+// Default endpoints to try — user can override via discovery
+let ENDPOINTS = [
+  { key: 'parties',  label: 'Party Results',      url: '/SecureJson.ashx?file=JSONFiles/Election2082/Common/HoRPartyTop5.txt',  type: 'parties'  },
+  { key: 'summary',  label: 'National Summary',    url: '/SecureJson.ashx?file=JSONFiles/Election2082/Common/HoRSummary.txt',    type: 'summary'  },
+];
+
+// Alternate paths to probe automatically when primary fails
+const FALLBACK_PARTY_PATHS = [
+  '/SecureJson.ashx?file=JSONFiles/Election2082/Common/HoRPartyTop5.txt',
+  '/SecureJson.ashx?file=JSONFiles/Election2082/Common/HoRPartyTop10.txt',
+  '/SecureJson.ashx?file=JSONFiles/Election2082/Common/HoRPartyResult.txt',
+  '/SecureJson.ashx?file=JSONFiles/Election2082/Common/PartyResult.txt',
+  '/SecureJson.ashx?file=JSONFiles/Election2082/Common/HoRParty.txt',
+];
+const FALLBACK_SUMMARY_PATHS = [
+  '/SecureJson.ashx?file=JSONFiles/Election2082/Common/HoRSummary.txt',
+  '/SecureJson.ashx?file=JSONFiles/Election2082/Common/Summary.txt',
+  '/SecureJson.ashx?file=JSONFiles/Election2082/Common/NationalSummary.txt',
+];
+
+let cycleCount = 0, pushCount = 0, countdown = null;
+const statuses = {}, rawStore = {};
+
+// ── Sniffer script ──────────────────────────────────────────────────────────
+const SNIFFER_SCRIPT = `(function(){window._ecnUrls=[];function r(m,u){if(!u)return;const s=String(u);if(s.match(/\\.(txt|json|ashx)/i)||s.includes('SecureJson')||s.includes('JSONFiles')){if(!window._ecnUrls.includes(s)){window._ecnUrls.push(s);console.log('%c[ECN Sniffer]','color:#22c55e;font-weight:bold',m,s);}}}const _f=window.fetch;window.fetch=function(i,o){r('fetch',typeof i==='string'?i:i?.url);return _f.apply(this,arguments);};const _o=XMLHttpRequest.prototype.open;XMLHttpRequest.prototype.open=function(m,u){r('XHR',u);return _o.apply(this,arguments);};console.log('%c[ECN Sniffer] Active — interact with the page, then run: copy(JSON.stringify(window._ecnUrls,null,2))','background:#166534;color:#86efac;padding:4px 8px;border-radius:4px;font-weight:bold');})();`;
+
+function copySnifferScript() {
+  navigator.clipboard.writeText(SNIFFER_SCRIPT).then(() => {
+    log('Sniffer script copied to clipboard! Paste it in the ECN console.', 'ok');
+  }).catch(() => {
+    // Fallback
+    const ta = document.createElement('textarea');
+    ta.value = SNIFFER_SCRIPT;
+    document.body.appendChild(ta);
+    ta.select();
+    document.execCommand('copy');
+    document.body.removeChild(ta);
+    log('Sniffer script copied! Paste it in the ECN console.', 'ok');
+  });
+}
+
+function loadDiscoveredUrls() {
+  const text = document.getElementById('pasteUrls').value.trim();
+  if (!text) { log('Nothing pasted.', 'warn'); return; }
+
+  let urls;
+  try {
+    // Handle raw text (one URL per line) or JSON array
+    urls = text.startsWith('[') ? JSON.parse(text) : text.split('\n').map(s => s.trim()).filter(Boolean);
+  } catch(e) {
+    log('Could not parse pasted content. Paste JSON array or one URL per line.', 'error');
+    return;
+  }
+
+  const container = document.getElementById('discoveredList');
+  container.innerHTML = `<p style="font-size:0.75rem;color:#64748b;margin-bottom:8px;">Found ${urls.length} URLs — click "Use" to add as endpoint:</p>`;
+
+  urls.forEach(url => {
+    // Guess type from URL
+    let guessType = 'parties';
+    if (/summary/i.test(url)) guessType = 'summary';
+    else if (/constituency|HoR\d+/i.test(url)) guessType = 'constituencies';
+
+    const div = document.createElement('div');
+    div.className = 'sniff-url';
+    div.innerHTML = `<span>${url}</span><button class="sniff-use" onclick="useDiscoveredUrl('${url.replace(/'/g,"\\'")}','${guessType}')">Use as ${guessType}</button>`;
+    container.appendChild(div);
+  });
+
+  log(`Loaded ${urls.length} discovered URLs.`, 'ok');
+}
+
+function useDiscoveredUrl(url, type) {
+  const key = type + '_' + Date.now();
+  const label = url.split('/').pop().replace('.txt','');
+  const existing = ENDPOINTS.findIndex(e => e.type === type);
+  if (existing >= 0) {
+    ENDPOINTS[existing] = { key: type, label, url, type };
+    log(`Updated ${type} endpoint: ${url}`, 'ok');
+  } else {
+    ENDPOINTS.push({ key, label, url, type });
+    log(`Added ${type} endpoint: ${url}`, 'ok');
+  }
+  ENDPOINTS.forEach(ep => setStatus(ep.key, ep.label, 'idle', 'Idle'));
+}
+
+// ── UI helpers ──────────────────────────────────────────────────────────────
+function setStatus(key, label, state, badge) {
+  statuses[key] = { label, state, badge };
+  const el = document.getElementById('statusRows');
+  el.innerHTML = Object.entries(statuses).map(([, s]) => `
+    <div class="status-row">
+      <span class="dot ${s.state}"></span>
+      <span class="label">${s.label}</span>
+      <span class="badge ${s.state==='ok'?'ok':s.state==='error'?'error':'skip'}">${s.badge}</span>
+    </div>`).join('');
+}
+
+function log(msg, type = 'info') {
+  const el = document.getElementById('log');
+  const t = new Date().toLocaleTimeString();
+  el.innerHTML += `\n<span class="log-${type}">[${t}] ${msg}</span>`;
+  el.scrollTop = el.scrollHeight;
+}
+
+function storeRaw(key, label, data) {
+  rawStore[key] = { label, data };
+  const sel = document.getElementById('rawSelect');
+  if (!sel.querySelector(`option[value="${key}"]`)) {
+    const opt = document.createElement('option');
+    opt.value = key; opt.textContent = label;
+    sel.appendChild(opt);
+  }
+  sel.value = key;
+  showRaw(key);
+}
+
+function showRaw(key) {
+  if (!key || !rawStore[key]) return;
+  const { data } = rawStore[key];
+  const arr  = Array.isArray(data) ? data : (data?.d ?? data?.data ?? [data]);
+  const sample = arr.slice(0, 2);
+  document.getElementById('rawPanel').textContent =
+    `// Keys in first item: ${Object.keys(arr[0] ?? {}).join(', ')}\n\n` +
+    JSON.stringify(sample, null, 2);
+}
+
+// ── Core fetch/push ──────────────────────────────────────────────────────────
+async function fetchECN(path) {
+  const res = await fetch(ECN_BASE + path, {
+    headers: { 'Accept': 'application/json,*/*', 'X-Requested-With': 'XMLHttpRequest' },
+    cache: 'no-store',
+  });
+
+  const text = await res.text();
+
+  // Detect 503 / HTML error pages
+  if (!res.ok || text.trim().startsWith('<')) {
+    throw new Error(`HTTP ${res.status} — response is HTML, not JSON. Try a different endpoint path.`);
+  }
+
+  // Strip BOM / JSONP wrapping
+  const clean = text.replace(/^\uFEFF/, '').replace(/^[^[{]*/, '').replace(/[^}\]]*$/, '');
+  return JSON.parse(clean);
+}
+
+async function pushToAPI(type, data, id = null) {
+  const body = { type, data };
+  if (id !== null) body.id = id;
+  const res = await fetch(PHP_API, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(body),
+  });
+  if (!res.ok) throw new Error(`Ingest HTTP ${res.status} — is election.test running?`);
+  return res.json();
+}
+
+// ── Fetch cycles ────────────────────────────────────────────────────────────
+async function runCycle() {
+  cycleCount++;
+  document.getElementById('cycles').textContent = cycleCount;
+  log(`── Cycle ${cycleCount} ──`);
+
+  for (const ep of ENDPOINTS) {
+    setStatus(ep.key, ep.label, 'pending', 'Fetching…');
+    try {
+      const data = await fetchECN(ep.url);
+      storeRaw(ep.key, ep.label, data);
+      log(`Fetched: ${ep.label} (${JSON.stringify(data).length} bytes)`, 'info');
+
+      await pushToAPI(ep.type, data);
+      pushCount++;
+      document.getElementById('pushes').textContent = pushCount;
+      setStatus(ep.key, ep.label, 'ok', 'OK ✓');
+      log(`Pushed to PHP cache: ${ep.type}`, 'ok');
+    } catch (e) {
+      setStatus(ep.key, ep.label, 'error', 'Failed');
+      log(`${ep.label}: ${e.message}`, 'error');
+    }
+  }
+}
+
+async function fetchConstituency() {
+  const id = parseInt(document.getElementById('constId').value, 10);
+  if (!id || id < 1 || id > 165) { log('Invalid constituency ID (1–165)', 'warn'); return; }
+
+  const url = `/SecureJson.ashx?file=JSONFiles/Election2082/Constituency/HoR${id}.txt`;
+  const key = `const_${id}`;
+  setStatus(key, `Constituency ${id}`, 'pending', 'Fetching…');
+
+  try {
+    const data = await fetchECN(url);
+    storeRaw(key, `Constituency ${id}`, data);
+    log(`Fetched constituency ${id} (${JSON.stringify(data).length} bytes)`, 'info');
+
+    await pushToAPI('constituency', data, id);
+    pushCount++;
+    document.getElementById('pushes').textContent = pushCount;
+    setStatus(key, `Constituency ${id}`, 'ok', 'OK ✓');
+    log(`Pushed constituency ${id} to PHP cache`, 'ok');
+  } catch (e) {
+    setStatus(key, `Constituency ${id}`, 'error', 'Failed');
+    log(`Constituency ${id}: ${e.message}`, 'error');
+  }
+}
+
+async function tryCustomPath() {
+  const path = document.getElementById('customPath').value.trim();
+  if (!path) { log('Enter a path first.', 'warn'); return; }
+  const key = 'custom_' + Date.now();
+  setStatus(key, path, 'pending', 'Trying…');
+  try {
+    const data = await fetchECN(path);
+    storeRaw(key, path.split('/').pop(), data);
+    setStatus(key, path, 'ok', 'OK ✓');
+    log(`Custom path worked: ${path} (${JSON.stringify(data).length} bytes)`, 'ok');
+    log(`Keys: ${Object.keys(Array.isArray(data) ? data[0] ?? {} : data).join(', ')}`, 'info');
+  } catch(e) {
+    setStatus(key, path, 'error', 'Failed');
+    log(`Custom path failed: ${e.message}`, 'error');
+  }
+}
+
+function startAuto() {
+  document.getElementById('btnStart').style.display = 'none';
+  document.getElementById('btnStop').style.display  = 'inline-block';
+  runCycle();
+  let secs = 60;
+  countdown = setInterval(() => {
+    secs--;
+    document.getElementById('nextIn').textContent = secs;
+    if (secs <= 0) { secs = 60; runCycle(); }
+  }, 1000);
+}
+
+function stopAuto() {
+  clearInterval(countdown);
+  document.getElementById('btnStart').style.display = 'inline-block';
+  document.getElementById('btnStop').style.display  = 'none';
+  document.getElementById('nextIn').textContent = '—';
+  log('Auto-fetch stopped.', 'info');
+}
+
+ENDPOINTS.forEach(ep => setStatus(ep.key, ep.label, 'idle', 'Idle'));
+</script>
+</body>
+</html>

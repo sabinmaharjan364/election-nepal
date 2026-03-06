@@ -1,0 +1,67 @@
+{
+    "fetched_at": 1772796064,
+    "ttl": 60,
+    "data": {
+        "id": 120,
+        "name": "Mustang-1",
+        "name_np": "क्षेत्र नं. १",
+        "province": "Gandaki",
+        "district": "Mustang",
+        "total_votes_counted": 5872,
+        "total_registered_voters": 11328,
+        "total_cast_votes": 6397,
+        "counting_complete": true,
+        "status": "pending",
+        "candidates": [
+            {
+                "id": 342128,
+                "name": "Yogesh Gauchan Thakali",
+                "name_np": "योगेश गौचन  थकाली",
+                "party": "Nepali Congress",
+                "party_abbr": "NC",
+                "party_color": "#1e3a8a",
+                "party_name": "नेपाली काँग्रेस",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/342128.jpg",
+                "votes": 3307,
+                "percentage": 56.3,
+                "position": 1,
+                "status": "won"
+            },
+            {
+                "id": 339737,
+                "name": "Indra Dhara Dadu Bista",
+                "name_np": "इन्द्र धारा डादु विष्ट",
+                "party": "CPN-UML",
+                "party_abbr": "UML",
+                "party_color": "#dc2626",
+                "party_name": "नेपाल कम्युनिष्ट पार्टी (एकीकृत मार्क्सवादी लेनिनवादी)",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/339737.jpg",
+                "votes": 1806,
+                "percentage": 30.8,
+                "position": 2,
+                "status": "trailing"
+            },
+            {
+                "id": 342245,
+                "name": "Aditiyya Chandra Thakali",
+                "name_np": "अधितीय चन्द्र थकाली",
+                "party": "Rastriya Swatantra Party",
+                "party_abbr": "RSP",
+                "party_color": "#7c3aed",
+                "party_name": "राष्ट्रिय स्वतन्त्र पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/342245.jpg",
+                "votes": 759,
+                "percentage": 12.9,
+                "position": 3,
+                "status": "trailing"
+            }
+        ],
+        "winner": {
+            "id": 342128,
+            "name": "Yogesh Gauchan Thakali",
+            "party": "Nepali Congress",
+            "votes": 3307,
+            "margin": 1501
+        }
+    }
+}

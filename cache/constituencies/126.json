@@ -1,0 +1,61 @@
+{
+    "fetched_at": 1772796064,
+    "ttl": 60,
+    "data": {
+        "id": 126,
+        "name": "Rolpa-1",
+        "name_np": "क्षेत्र नं. १",
+        "province": "Lumbini",
+        "district": "Rolpa",
+        "total_votes_counted": 1619,
+        "total_registered_voters": 149597,
+        "total_cast_votes": 0,
+        "counting_complete": false,
+        "status": "counting",
+        "candidates": [
+            {
+                "id": 339842,
+                "name": "Barshaman Pun",
+                "name_np": "बर्षमान पुन",
+                "party": "CPN (Maoist Centre)",
+                "party_abbr": "MC",
+                "party_color": "#7f1d1d",
+                "party_name": "नेपाली कम्युनिष्ट पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/339842.jpg",
+                "votes": 873,
+                "percentage": 53.9,
+                "position": 1,
+                "status": "leading"
+            },
+            {
+                "id": 340542,
+                "name": "Chudamani Oli",
+                "name_np": "चुडामणी वली",
+                "party": "नेपाल कम्युनिस्ट पार्टी (माओवादी)",
+                "party_abbr": "नेपा",
+                "party_color": "#6b7280",
+                "party_name": "नेपाल कम्युनिस्ट पार्टी (माओवादी)",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340542.jpg",
+                "votes": 573,
+                "percentage": 35.4,
+                "position": 2,
+                "status": "trailing"
+            },
+            {
+                "id": 340139,
+                "name": "Gokul Prasad Gharti",
+                "name_np": "गोकुल प्रसाद घर्ती",
+                "party": "CPN-UML",
+                "party_abbr": "UML",
+                "party_color": "#dc2626",
+                "party_name": "नेपाल कम्युनिष्ट पार्टी (एकीकृत मार्क्सवादी लेनिनवादी)",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340139.jpg",
+                "votes": 173,
+                "percentage": 10.7,
+                "position": 3,
+                "status": "trailing"
+            }
+        ],
+        "winner": null
+    }
+}

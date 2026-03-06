@@ -1,0 +1,61 @@
+{
+    "fetched_at": 1772796064,
+    "ttl": 60,
+    "data": {
+        "id": 123,
+        "name": "Baglung-2",
+        "name_np": "क्षेत्र नं. २",
+        "province": "Gandaki",
+        "district": "Baglung",
+        "total_votes_counted": 0,
+        "total_registered_voters": 95335,
+        "total_cast_votes": 0,
+        "counting_complete": false,
+        "status": "counting",
+        "candidates": [
+            {
+                "id": 341354,
+                "name": "Tek Raj Poudel",
+                "name_np": "टेक राज पौडेल",
+                "party": "Nepali Congress",
+                "party_abbr": "NC",
+                "party_color": "#1e3a8a",
+                "party_name": "नेपाली काँग्रेस",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/341354.jpg",
+                "votes": 0,
+                "percentage": 0,
+                "position": 1,
+                "status": "trailing"
+            },
+            {
+                "id": 340355,
+                "name": "Manju Sharma",
+                "name_np": "मन्जु शर्मा",
+                "party": "CPN-UML",
+                "party_abbr": "UML",
+                "party_color": "#dc2626",
+                "party_name": "नेपाल कम्युनिष्ट पार्टी (एकीकृत मार्क्सवादी लेनिनवादी)",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340355.jpg",
+                "votes": 0,
+                "percentage": 0,
+                "position": 2,
+                "status": "trailing"
+            },
+            {
+                "id": 342039,
+                "name": "Som Sharma",
+                "name_np": "सोम शर्मा",
+                "party": "Rastriya Swatantra Party",
+                "party_abbr": "RSP",
+                "party_color": "#7c3aed",
+                "party_name": "राष्ट्रिय स्वतन्त्र पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/342039.jpg",
+                "votes": 0,
+                "percentage": 0,
+                "position": 3,
+                "status": "trailing"
+            }
+        ],
+        "winner": null
+    }
+}

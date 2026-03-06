@@ -1,0 +1,61 @@
+{
+    "fetched_at": 1772796064,
+    "ttl": 60,
+    "data": {
+        "id": 129,
+        "name": "Dang-1",
+        "name_np": "क्षेत्र नं. १",
+        "province": "Lumbini",
+        "district": "Dang",
+        "total_votes_counted": 5452,
+        "total_registered_voters": 140001,
+        "total_cast_votes": 80920,
+        "counting_complete": false,
+        "status": "counting",
+        "candidates": [
+            {
+                "id": 342029,
+                "name": "Devraj Pathak",
+                "name_np": "देवराज पाठक",
+                "party": "Rastriya Swatantra Party",
+                "party_abbr": "RSP",
+                "party_color": "#7c3aed",
+                "party_name": "राष्ट्रिय स्वतन्त्र पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/342029.jpg",
+                "votes": 3959,
+                "percentage": 72.6,
+                "position": 1,
+                "status": "leading"
+            },
+            {
+                "id": 340084,
+                "name": "Yogendra Chaudhary",
+                "name_np": "योगेन्द्र चौधरी",
+                "party": "Nepali Congress",
+                "party_abbr": "NC",
+                "party_color": "#1e3a8a",
+                "party_name": "नेपाली काँग्रेस",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340084.jpg",
+                "votes": 1018,
+                "percentage": 18.7,
+                "position": 2,
+                "status": "trailing"
+            },
+            {
+                "id": 340523,
+                "name": "Metmani Chaudhary",
+                "name_np": "मेटमणी चौधरी",
+                "party": "CPN (Maoist Centre)",
+                "party_abbr": "MC",
+                "party_color": "#7f1d1d",
+                "party_name": "नेपाली कम्युनिष्ट पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340523.jpg",
+                "votes": 475,
+                "percentage": 8.7,
+                "position": 3,
+                "status": "trailing"
+            }
+        ],
+        "winner": null
+    }
+}

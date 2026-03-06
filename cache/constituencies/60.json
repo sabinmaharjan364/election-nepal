@@ -1,0 +1,61 @@
+{
+    "fetched_at": 1772796064,
+    "ttl": 60,
+    "data": {
+        "id": 60,
+        "name": "Kathmandu-3",
+        "name_np": "क्षेत्र नं. ३",
+        "province": "Bagmati",
+        "district": "Kathmandu",
+        "total_votes_counted": 21735,
+        "total_registered_voters": 64479,
+        "total_cast_votes": 0,
+        "counting_complete": false,
+        "status": "counting",
+        "candidates": [
+            {
+                "id": 339690,
+                "name": "Raju Nath Pandey",
+                "name_np": "राजु नाथ पाण्डे",
+                "party": "Rastriya Swatantra Party",
+                "party_abbr": "RSP",
+                "party_color": "#7c3aed",
+                "party_name": "राष्ट्रिय स्वतन्त्र पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/339690.jpg",
+                "votes": 11138,
+                "percentage": 51.2,
+                "position": 1,
+                "status": "leading"
+            },
+            {
+                "id": 340200,
+                "name": "Kulman Ghising",
+                "name_np": "कुलमान घिसिङ्",
+                "party": "Ujyalo Nepal Party",
+                "party_abbr": "UNP",
+                "party_color": "#f97316",
+                "party_name": "उज्यालो नेपाल पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340200.jpg",
+                "votes": 6699,
+                "percentage": 30.8,
+                "position": 2,
+                "status": "trailing"
+            },
+            {
+                "id": 341618,
+                "name": "Ramesh Aryal",
+                "name_np": "रमेश अर्याल",
+                "party": "Nepali Congress",
+                "party_abbr": "NC",
+                "party_color": "#1e3a8a",
+                "party_name": "नेपाली काँग्रेस",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/341618.jpg",
+                "votes": 3898,
+                "percentage": 17.9,
+                "position": 3,
+                "status": "trailing"
+            }
+        ],
+        "winner": null
+    }
+}

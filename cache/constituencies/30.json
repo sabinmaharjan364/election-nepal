@@ -1,0 +1,61 @@
+{
+    "fetched_at": 1772796064,
+    "ttl": 60,
+    "data": {
+        "id": 30,
+        "name": "Saptari-2",
+        "name_np": "क्षेत्र नं. २",
+        "province": "Madhesh",
+        "district": "Saptari",
+        "total_votes_counted": 0,
+        "total_registered_voters": 105922,
+        "total_cast_votes": 61987,
+        "counting_complete": false,
+        "status": "pending",
+        "candidates": [
+            {
+                "id": 342002,
+                "name": "Chandra Kant Raut",
+                "name_np": "चन्द्र कान्त राउत",
+                "party": "Janmat Party",
+                "party_abbr": "JP",
+                "party_color": "#065f46",
+                "party_name": "जनमत पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/342002.jpg",
+                "votes": 0,
+                "percentage": 0,
+                "position": 1,
+                "status": "trailing"
+            },
+            {
+                "id": 341231,
+                "name": "Ram Kumar Yadav",
+                "name_np": "राम कुमार यादव",
+                "party": "Nepali Congress",
+                "party_abbr": "NC",
+                "party_color": "#1e3a8a",
+                "party_name": "नेपाली काँग्रेस",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/341231.jpg",
+                "votes": 0,
+                "percentage": 0,
+                "position": 2,
+                "status": "trailing"
+            },
+            {
+                "id": 340664,
+                "name": "Mohammad Ziaul Rehman",
+                "name_np": "मोहम्मद जियाउल रहमान",
+                "party": "CPN-UML",
+                "party_abbr": "UML",
+                "party_color": "#dc2626",
+                "party_name": "नेपाल कम्युनिष्ट पार्टी (एकीकृत मार्क्सवादी लेनिनवादी)",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340664.jpg",
+                "votes": 0,
+                "percentage": 0,
+                "position": 3,
+                "status": "trailing"
+            }
+        ],
+        "winner": null
+    }
+}

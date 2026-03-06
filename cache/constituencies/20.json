@@ -1,0 +1,61 @@
+{
+    "fetched_at": 1772796064,
+    "ttl": 60,
+    "data": {
+        "id": 20,
+        "name": "Sunsari-1",
+        "name_np": "क्षेत्र नं. १",
+        "province": "Koshi",
+        "district": "Sunsari",
+        "total_votes_counted": 663,
+        "total_registered_voters": 150393,
+        "total_cast_votes": 87865,
+        "counting_complete": false,
+        "status": "counting",
+        "candidates": [
+            {
+                "id": 341436,
+                "name": "Goma Tamang",
+                "name_np": "गोमा तामाङ",
+                "party": "Rastriya Swatantra Party",
+                "party_abbr": "RSP",
+                "party_color": "#7c3aed",
+                "party_name": "राष्ट्रिय स्वतन्त्र पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/341436.jpg",
+                "votes": 461,
+                "percentage": 69.5,
+                "position": 1,
+                "status": "leading"
+            },
+            {
+                "id": 339794,
+                "name": "Harka Raj Rai",
+                "name_np": "हर्क राज राई",
+                "party": "Shram Sanskriti Party",
+                "party_abbr": "LSP",
+                "party_color": "#84cc16",
+                "party_name": "श्रम संस्कृति पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/339794.jpg",
+                "votes": 107,
+                "percentage": 16.1,
+                "position": 2,
+                "status": "trailing"
+            },
+            {
+                "id": 342440,
+                "name": "Uddhav Shrestha",
+                "name_np": "उद्धव श्रेष्‍ठ",
+                "party": "Rastriya Prajatantra Party",
+                "party_abbr": "RPP",
+                "party_color": "#d97706",
+                "party_name": "राष्ट्रिय प्रजातन्त्र पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/342440.jpg",
+                "votes": 95,
+                "percentage": 14.3,
+                "position": 3,
+                "status": "trailing"
+            }
+        ],
+        "winner": null
+    }
+}

@@ -1,0 +1,61 @@
+{
+    "fetched_at": 1772796064,
+    "ttl": 60,
+    "data": {
+        "id": 161,
+        "name": "Kanchanpur-2",
+        "name_np": "क्षेत्र नं. २",
+        "province": "Sudurpashchim",
+        "district": "Kanchanpur",
+        "total_votes_counted": 14779,
+        "total_registered_voters": 109574,
+        "total_cast_votes": 64881,
+        "counting_complete": false,
+        "status": "counting",
+        "candidates": [
+            {
+                "id": 340896,
+                "name": "Deepak Raj Bohra",
+                "name_np": "दिपक राज बोहरा",
+                "party": "Rastriya Swatantra Party",
+                "party_abbr": "RSP",
+                "party_color": "#7c3aed",
+                "party_name": "राष्ट्रिय स्वतन्त्र पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340896.jpg",
+                "votes": 9890,
+                "percentage": 66.9,
+                "position": 1,
+                "status": "leading"
+            },
+            {
+                "id": 341026,
+                "name": "Narayan Prakash Saud",
+                "name_np": "नारायण प्रकाश साउद",
+                "party": "Nepali Congress",
+                "party_abbr": "NC",
+                "party_color": "#1e3a8a",
+                "party_name": "नेपाली काँग्रेस",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/341026.jpg",
+                "votes": 2925,
+                "percentage": 19.8,
+                "position": 2,
+                "status": "trailing"
+            },
+            {
+                "id": 341433,
+                "name": "Madhav Prasad Pant",
+                "name_np": "माधव प्रसाद पन्त",
+                "party": "CPN (Maoist Centre)",
+                "party_abbr": "MC",
+                "party_color": "#7f1d1d",
+                "party_name": "नेपाली कम्युनिष्ट पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/341433.jpg",
+                "votes": 1964,
+                "percentage": 13.3,
+                "position": 3,
+                "status": "trailing"
+            }
+        ],
+        "winner": null
+    }
+}

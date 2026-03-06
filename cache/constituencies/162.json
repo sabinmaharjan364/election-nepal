@@ -1,0 +1,61 @@
+{
+    "fetched_at": 1772796064,
+    "ttl": 60,
+    "data": {
+        "id": 162,
+        "name": "Kanchanpur-3",
+        "name_np": "क्षेत्र नं. ३",
+        "province": "Sudurpashchim",
+        "district": "Kanchanpur",
+        "total_votes_counted": 1256,
+        "total_registered_voters": 103087,
+        "total_cast_votes": 58361,
+        "counting_complete": false,
+        "status": "counting",
+        "candidates": [
+            {
+                "id": 340127,
+                "name": "Gyanendra Singh Mahata",
+                "name_np": "ज्ञानेन्द्र सिंह महता",
+                "party": "Rastriya Swatantra Party",
+                "party_abbr": "RSP",
+                "party_color": "#7c3aed",
+                "party_name": "राष्ट्रिय स्वतन्त्र पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340127.jpg",
+                "votes": 785,
+                "percentage": 62.5,
+                "position": 1,
+                "status": "leading"
+            },
+            {
+                "id": 342171,
+                "name": "Hari Prasad Bohra",
+                "name_np": "हरि प्रसाद बोहरा",
+                "party": "Nepali Congress",
+                "party_abbr": "NC",
+                "party_color": "#1e3a8a",
+                "party_name": "नेपाली काँग्रेस",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/342171.jpg",
+                "votes": 300,
+                "percentage": 23.9,
+                "position": 2,
+                "status": "trailing"
+            },
+            {
+                "id": 340422,
+                "name": "Deepak Prakash Bhatt",
+                "name_np": "दीपक प्रकाश भट्ट",
+                "party": "CPN-UML",
+                "party_abbr": "UML",
+                "party_color": "#dc2626",
+                "party_name": "नेपाल कम्युनिष्ट पार्टी (एकीकृत मार्क्सवादी लेनिनवादी)",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340422.jpg",
+                "votes": 171,
+                "percentage": 13.6,
+                "position": 3,
+                "status": "trailing"
+            }
+        ],
+        "winner": null
+    }
+}

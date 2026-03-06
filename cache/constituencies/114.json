@@ -1,0 +1,61 @@
+{
+    "fetched_at": 1772796064,
+    "ttl": 60,
+    "data": {
+        "id": 114,
+        "name": "Rupandehi-3",
+        "name_np": "क्षेत्र नं. ३",
+        "province": "Lumbini",
+        "district": "Rupandehi",
+        "total_votes_counted": 4588,
+        "total_registered_voters": 140035,
+        "total_cast_votes": 97383,
+        "counting_complete": false,
+        "status": "counting",
+        "candidates": [
+            {
+                "id": 339605,
+                "name": "Dr. Lekhjung Thapa",
+                "name_np": "डा. लेखजंग थापा",
+                "party": "Rastriya Swatantra Party",
+                "party_abbr": "RSP",
+                "party_color": "#7c3aed",
+                "party_name": "राष्ट्रिय स्वतन्त्र पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/339605.jpg",
+                "votes": 3626,
+                "percentage": 79,
+                "position": 1,
+                "status": "leading"
+            },
+            {
+                "id": 340936,
+                "name": "Gaurab Bohra",
+                "name_np": "गौरब बोहरा",
+                "party": "Rastriya Prajatantra Party",
+                "party_abbr": "RPP",
+                "party_color": "#d97706",
+                "party_name": "राष्ट्रिय प्रजातन्त्र पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340936.jpg",
+                "votes": 492,
+                "percentage": 10.7,
+                "position": 2,
+                "status": "trailing"
+            },
+            {
+                "id": 340885,
+                "name": "Sushil Gurung",
+                "name_np": "सुशील गुरुङ्ग",
+                "party": "Nepali Congress",
+                "party_abbr": "NC",
+                "party_color": "#1e3a8a",
+                "party_name": "नेपाली काँग्रेस",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340885.jpg",
+                "votes": 470,
+                "percentage": 10.2,
+                "position": 3,
+                "status": "trailing"
+            }
+        ],
+        "winner": null
+    }
+}

@@ -1,0 +1,61 @@
+{
+    "fetched_at": 1772796064,
+    "ttl": 60,
+    "data": {
+        "id": 11,
+        "name": "Terhathum-1",
+        "name_np": "क्षेत्र नं. १",
+        "province": "Koshi",
+        "district": "Terhathum",
+        "total_votes_counted": 13787,
+        "total_registered_voters": 73137,
+        "total_cast_votes": 0,
+        "counting_complete": false,
+        "status": "counting",
+        "candidates": [
+            {
+                "id": 340855,
+                "name": "Bhanu Bhakta Dhakal",
+                "name_np": "भानु भक्त ढकाल",
+                "party": "CPN-UML",
+                "party_abbr": "UML",
+                "party_color": "#dc2626",
+                "party_name": "नेपाल कम्युनिष्ट पार्टी (एकीकृत मार्क्सवादी लेनिनवादी)",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340855.jpg",
+                "votes": 5176,
+                "percentage": 37.5,
+                "position": 1,
+                "status": "leading"
+            },
+            {
+                "id": 340612,
+                "name": "Santosh Subba",
+                "name_np": "सन्तोष सुब्वा",
+                "party": "Nepali Congress",
+                "party_abbr": "NC",
+                "party_color": "#1e3a8a",
+                "party_name": "नेपाली काँग्रेस",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340612.jpg",
+                "votes": 4462,
+                "percentage": 32.4,
+                "position": 2,
+                "status": "trailing"
+            },
+            {
+                "id": 342758,
+                "name": "Surendra Karki",
+                "name_np": "सुरेन्द्र कार्की",
+                "party": "Rastriya Swatantra Party",
+                "party_abbr": "RSP",
+                "party_color": "#7c3aed",
+                "party_name": "राष्ट्रिय स्वतन्त्र पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/342758.jpg",
+                "votes": 4149,
+                "percentage": 30.1,
+                "position": 3,
+                "status": "trailing"
+            }
+        ],
+        "winner": null
+    }
+}

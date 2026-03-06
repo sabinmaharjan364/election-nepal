@@ -1,0 +1,61 @@
+{
+    "fetched_at": 1772796064,
+    "ttl": 60,
+    "data": {
+        "id": 6,
+        "name": "Jhapa-2",
+        "name_np": "क्षेत्र नं. २",
+        "province": "Koshi",
+        "district": "Jhapa",
+        "total_votes_counted": 5903,
+        "total_registered_voters": 147522,
+        "total_cast_votes": 96252,
+        "counting_complete": false,
+        "status": "counting",
+        "candidates": [
+            {
+                "id": 339380,
+                "name": "Indira Rana Magar",
+                "name_np": "इन्दिरा राना मगर",
+                "party": "Rastriya Swatantra Party",
+                "party_abbr": "RSP",
+                "party_color": "#7c3aed",
+                "party_name": "राष्ट्रिय स्वतन्त्र पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/339380.jpg",
+                "votes": 4580,
+                "percentage": 77.6,
+                "position": 1,
+                "status": "leading"
+            },
+            {
+                "id": 339775,
+                "name": "Dev Raj Ghimire",
+                "name_np": "देव राज घिमिरे",
+                "party": "CPN-UML",
+                "party_abbr": "UML",
+                "party_color": "#dc2626",
+                "party_name": "नेपाल कम्युनिष्ट पार्टी (एकीकृत मार्क्सवादी लेनिनवादी)",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/339775.jpg",
+                "votes": 716,
+                "percentage": 12.1,
+                "position": 2,
+                "status": "trailing"
+            },
+            {
+                "id": 339545,
+                "name": "Keshav Kumar Bhandari",
+                "name_np": "केशव कुमार भण्डारी",
+                "party": "Shram Sanskriti Party",
+                "party_abbr": "LSP",
+                "party_color": "#84cc16",
+                "party_name": "श्रम संस्कृति पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/339545.jpg",
+                "votes": 607,
+                "percentage": 10.3,
+                "position": 3,
+                "status": "trailing"
+            }
+        ],
+        "winner": null
+    }
+}

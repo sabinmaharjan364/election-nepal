@@ -1,0 +1,61 @@
+{
+    "fetched_at": 1772796064,
+    "ttl": 60,
+    "data": {
+        "id": 149,
+        "name": "Achham-2",
+        "name_np": "क्षेत्र नं. २",
+        "province": "Sudurpashchim",
+        "district": "Achham",
+        "total_votes_counted": 0,
+        "total_registered_voters": 82824,
+        "total_cast_votes": 64780,
+        "counting_complete": false,
+        "status": "pending",
+        "candidates": [
+            {
+                "id": 342150,
+                "name": "Pushpa Bahadur Shah",
+                "name_np": "पुष्प बहादुर शाह",
+                "party": "Nepali Congress",
+                "party_abbr": "NC",
+                "party_color": "#1e3a8a",
+                "party_name": "नेपाली काँग्रेस",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/342150.jpg",
+                "votes": 0,
+                "percentage": 0,
+                "position": 1,
+                "status": "trailing"
+            },
+            {
+                "id": 340611,
+                "name": "Yagya Bahadur Bogati",
+                "name_np": "यज्ञ बहादुर बोगटी",
+                "party": "CPN-UML",
+                "party_abbr": "UML",
+                "party_color": "#dc2626",
+                "party_name": "नेपाल कम्युनिष्ट पार्टी (एकीकृत मार्क्सवादी लेनिनवादी)",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340611.jpg",
+                "votes": 0,
+                "percentage": 0,
+                "position": 2,
+                "status": "trailing"
+            },
+            {
+                "id": 340307,
+                "name": "Bhup Dev Shah",
+                "name_np": "भुप देव शाह",
+                "party": "Rastriya Swatantra Party",
+                "party_abbr": "RSP",
+                "party_color": "#7c3aed",
+                "party_name": "राष्ट्रिय स्वतन्त्र पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340307.jpg",
+                "votes": 0,
+                "percentage": 0,
+                "position": 3,
+                "status": "trailing"
+            }
+        ],
+        "winner": null
+    }
+}

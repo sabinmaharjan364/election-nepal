@@ -1,0 +1,61 @@
+{
+    "fetched_at": 1772796064,
+    "ttl": 60,
+    "data": {
+        "id": 99,
+        "name": "Kaski-2",
+        "name_np": "क्षेत्र नं. २",
+        "province": "Gandaki",
+        "district": "Kaski",
+        "total_votes_counted": 5788,
+        "total_registered_voters": 84134,
+        "total_cast_votes": 0,
+        "counting_complete": false,
+        "status": "counting",
+        "candidates": [
+            {
+                "id": 339683,
+                "name": "Uttam Prasad Poudel",
+                "name_np": "उत्तम प्रसाद पौडेल",
+                "party": "Rastriya Swatantra Party",
+                "party_abbr": "RSP",
+                "party_color": "#7c3aed",
+                "party_name": "राष्ट्रिय स्वतन्त्र पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/339683.jpg",
+                "votes": 4427,
+                "percentage": 76.5,
+                "position": 1,
+                "status": "leading"
+            },
+            {
+                "id": 339977,
+                "name": "Rashmi Acharya",
+                "name_np": "रश्‍मि आचार्य",
+                "party": "CPN-UML",
+                "party_abbr": "UML",
+                "party_color": "#dc2626",
+                "party_name": "नेपाल कम्युनिष्ट पार्टी (एकीकृत मार्क्सवादी लेनिनवादी)",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/339977.jpg",
+                "votes": 830,
+                "percentage": 14.3,
+                "position": 2,
+                "status": "trailing"
+            },
+            {
+                "id": 340510,
+                "name": "Madhav Prasad Banstola",
+                "name_np": "माधव प्रसाद वांस्तोला",
+                "party": "Nepali Congress",
+                "party_abbr": "NC",
+                "party_color": "#1e3a8a",
+                "party_name": "नेपाली काँग्रेस",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340510.jpg",
+                "votes": 531,
+                "percentage": 9.2,
+                "position": 3,
+                "status": "trailing"
+            }
+        ],
+        "winner": null
+    }
+}

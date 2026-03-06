@@ -1,0 +1,61 @@
+{
+    "fetched_at": 1772796064,
+    "ttl": 60,
+    "data": {
+        "id": 148,
+        "name": "Achham-1",
+        "name_np": "क्षेत्र नं. १",
+        "province": "Sudurpashchim",
+        "district": "Achham",
+        "total_votes_counted": 938,
+        "total_registered_voters": 82513,
+        "total_cast_votes": 0,
+        "counting_complete": false,
+        "status": "counting",
+        "candidates": [
+            {
+                "id": 341030,
+                "name": "Bhim Bahadur Rawal",
+                "name_np": "भीम बहादुर रावल",
+                "party": "CPN (Maoist Centre)",
+                "party_abbr": "MC",
+                "party_color": "#7f1d1d",
+                "party_name": "नेपाली कम्युनिष्ट पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/341030.jpg",
+                "votes": 487,
+                "percentage": 51.9,
+                "position": 1,
+                "status": "leading"
+            },
+            {
+                "id": 340695,
+                "name": "Deepak Bahadur Saud",
+                "name_np": "दिपक बहादुर साउंद",
+                "party": "CPN-UML",
+                "party_abbr": "UML",
+                "party_color": "#dc2626",
+                "party_name": "नेपाल कम्युनिष्ट पार्टी (एकीकृत मार्क्सवादी लेनिनवादी)",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340695.jpg",
+                "votes": 342,
+                "percentage": 36.5,
+                "position": 2,
+                "status": "trailing"
+            },
+            {
+                "id": 341661,
+                "name": "Bharat Kumar Swar",
+                "name_np": "भरत कुमार स्वार",
+                "party": "Nepali Congress",
+                "party_abbr": "NC",
+                "party_color": "#1e3a8a",
+                "party_name": "नेपाली काँग्रेस",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/341661.jpg",
+                "votes": 109,
+                "percentage": 11.6,
+                "position": 3,
+                "status": "trailing"
+            }
+        ],
+        "winner": null
+    }
+}

@@ -1,0 +1,67 @@
+{
+    "fetched_at": 1772796064,
+    "ttl": 60,
+    "data": {
+        "id": 58,
+        "name": "Kathmandu-1",
+        "name_np": "क्षेत्र नं. १",
+        "province": "Bagmati",
+        "district": "Kathmandu",
+        "total_votes_counted": 25791,
+        "total_registered_voters": 48489,
+        "total_cast_votes": 0,
+        "counting_complete": true,
+        "status": "pending",
+        "candidates": [
+            {
+                "id": 340716,
+                "name": "Ranju Neupane",
+                "name_np": "रन्‍जु न्‍यौपाने",
+                "party": "Rastriya Swatantra Party",
+                "party_abbr": "RSP",
+                "party_color": "#7c3aed",
+                "party_name": "राष्ट्रिय स्वतन्त्र पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/340716.jpg",
+                "votes": 15455,
+                "percentage": 59.9,
+                "position": 1,
+                "status": "won"
+            },
+            {
+                "id": 342172,
+                "name": "Prabal Thapa Chhetri",
+                "name_np": "प्रबल  थापा क्षेत्री",
+                "party": "Nepali Congress",
+                "party_abbr": "NC",
+                "party_color": "#1e3a8a",
+                "party_name": "नेपाली काँग्रेस",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/342172.jpg",
+                "votes": 6364,
+                "percentage": 24.7,
+                "position": 2,
+                "status": "trailing"
+            },
+            {
+                "id": 339576,
+                "name": "Rabindra Mishra",
+                "name_np": "रवीन्द्र मिश्र",
+                "party": "Rastriya Prajatantra Party",
+                "party_abbr": "RPP",
+                "party_color": "#d97706",
+                "party_name": "राष्ट्रिय प्रजातन्त्र पार्टी",
+                "image_url": "https:\/\/file-r2.hamropatro.com\/election-images\/2082\/candidates\/339576.jpg",
+                "votes": 3972,
+                "percentage": 15.4,
+                "position": 3,
+                "status": "trailing"
+            }
+        ],
+        "winner": {
+            "id": 340716,
+            "name": "Ranju Neupane",
+            "party": "Rastriya Swatantra Party",
+            "votes": 15455,
+            "margin": 9091
+        }
+    }
+}
